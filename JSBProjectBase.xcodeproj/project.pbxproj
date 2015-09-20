@@ -10,12 +10,12 @@
 		2787391A43C2B5C6D4F6CFE3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF5C92BCB1799B60751ECA8 /* libPods.a */; };
 		FE927F3D1BAE41BC00233E96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE927F3C1BAE41BC00233E96 /* main.m */; };
 		FE927F401BAE41BC00233E96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE927F3F1BAE41BC00233E96 /* AppDelegate.m */; };
-		FE927F431BAE41BC00233E96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE927F421BAE41BC00233E96 /* ViewController.m */; };
 		FE927F461BAE41BC00233E96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE927F441BAE41BC00233E96 /* Main.storyboard */; };
 		FE927F481BAE41BD00233E96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE927F471BAE41BD00233E96 /* Assets.xcassets */; };
 		FE927F4B1BAE41BD00233E96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE927F491BAE41BD00233E96 /* LaunchScreen.storyboard */; };
 		FE927F561BAE41BD00233E96 /* JSBProjectBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE927F551BAE41BD00233E96 /* JSBProjectBaseTests.m */; };
 		FE927F611BAE41BD00233E96 /* JSBProjectBaseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE927F601BAE41BD00233E96 /* JSBProjectBaseUITests.m */; };
+		FE927F791BAE540200233E96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE927F781BAE540200233E96 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +42,6 @@
 		FE927F3C1BAE41BC00233E96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FE927F3E1BAE41BC00233E96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FE927F3F1BAE41BC00233E96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FE927F411BAE41BC00233E96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FE927F421BAE41BC00233E96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FE927F451BAE41BC00233E96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE927F471BAE41BD00233E96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE927F4A1BAE41BD00233E96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +52,8 @@
 		FE927F5C1BAE41BD00233E96 /* JSBProjectBaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSBProjectBaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE927F601BAE41BD00233E96 /* JSBProjectBaseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSBProjectBaseUITests.m; sourceTree = "<group>"; };
 		FE927F621BAE41BD00233E96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE927F771BAE540200233E96 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE927F781BAE540200233E96 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FFF5C92BCB1799B60751ECA8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -125,14 +125,18 @@
 		FE927F3A1BAE41BC00233E96 /* JSBProjectBase */ = {
 			isa = PBXGroup;
 			children = (
+				FE927F741BAE537B00233E96 /* Resources */,
+				FE927F711BAE537B00233E96 /* Data */,
+				FE927F721BAE537B00233E96 /* lib */,
+				FE927F731BAE537B00233E96 /* Network */,
+				FE927F751BAE537B00233E96 /* Service */,
+				FE927F701BAE537B00233E96 /* Base */,
+				FE927F761BAE540200233E96 /* Tab0 */,
 				FE927F3E1BAE41BC00233E96 /* AppDelegate.h */,
 				FE927F3F1BAE41BC00233E96 /* AppDelegate.m */,
-				FE927F411BAE41BC00233E96 /* ViewController.h */,
-				FE927F421BAE41BC00233E96 /* ViewController.m */,
 				FE927F441BAE41BC00233E96 /* Main.storyboard */,
 				FE927F471BAE41BD00233E96 /* Assets.xcassets */,
 				FE927F491BAE41BD00233E96 /* LaunchScreen.storyboard */,
-				FE927F4C1BAE41BD00233E96 /* Info.plist */,
 				FE927F3B1BAE41BC00233E96 /* Supporting Files */,
 			);
 			path = JSBProjectBase;
@@ -141,6 +145,7 @@
 		FE927F3B1BAE41BC00233E96 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FE927F4C1BAE41BD00233E96 /* Info.plist */,
 				FE927F3C1BAE41BC00233E96 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -162,6 +167,57 @@
 				FE927F621BAE41BD00233E96 /* Info.plist */,
 			);
 			path = JSBProjectBaseUITests;
+			sourceTree = "<group>";
+		};
+		FE927F701BAE537B00233E96 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		FE927F711BAE537B00233E96 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FE927F721BAE537B00233E96 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		FE927F731BAE537B00233E96 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FE927F741BAE537B00233E96 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FE927F751BAE537B00233E96 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FE927F761BAE540200233E96 /* Tab0 */ = {
+			isa = PBXGroup;
+			children = (
+				FE927F771BAE540200233E96 /* ViewController.h */,
+				FE927F781BAE540200233E96 /* ViewController.m */,
+			);
+			path = Tab0;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,7 +385,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE927F431BAE41BC00233E96 /* ViewController.m in Sources */,
+				FE927F791BAE540200233E96 /* ViewController.m in Sources */,
 				FE927F401BAE41BC00233E96 /* AppDelegate.m in Sources */,
 				FE927F3D1BAE41BC00233E96 /* main.m in Sources */,
 			);
