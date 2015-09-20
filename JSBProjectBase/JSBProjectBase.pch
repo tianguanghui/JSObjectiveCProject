@@ -38,7 +38,7 @@ static const int ddLogLevel = DDLogLevelInfo;
 
 #elif defined(PROGRESS_PRODUCTION)                   // 生产环境 （外网生产服务器)
 /*****/
-static const int ddLogLevel = DDLogLevelInfo;
+//static const int ddLogLevel = DDLogLevelInfo;
 /*****/
 #else
 #error "can't detemted mode"

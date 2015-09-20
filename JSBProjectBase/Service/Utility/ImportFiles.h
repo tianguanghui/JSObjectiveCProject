@@ -37,8 +37,6 @@
 #import <POP.h>
 #import <SWTableViewCell.h>
 #import <Masonry.h>
-#import "MGSwipeButton.h"
-#import "MGSwipeTableCell.h"
 #import <MJExtension.h>
 #import <YTKRequest.h>
 #import <FMDB.h>

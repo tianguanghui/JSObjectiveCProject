@@ -11,6 +11,8 @@
 		FE2ABBE81BAEBAA4005CA114 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2ABBE51BAEBAA4005CA114 /* main.m */; settings = {ASSET_TAGS = (); }; };
 		FE2ABBE91BAEBAA4005CA114 /* thirdPartyLink.txt in Resources */ = {isa = PBXBuildFile; fileRef = FE2ABBE61BAEBAA4005CA114 /* thirdPartyLink.txt */; settings = {ASSET_TAGS = (); }; };
 		FE2ABBF01BAEBEBB005CA114 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE2ABBEE1BAEBEBB005CA114 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		FE5F2D081BAEE4E10067A64E /* JSBitMask.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5F2D071BAEE4E10067A64E /* JSBitMask.m */; settings = {ASSET_TAGS = (); }; };
+		FE5F2D0E1BAEE9060067A64E /* JSBUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5F2D0D1BAEE9060067A64E /* JSBUserDefaults.m */; settings = {ASSET_TAGS = (); }; };
 		FE833DD31BAE8B3E00B62D78 /* BasicGuide.md in Sources */ = {isa = PBXBuildFile; fileRef = FE833DCF1BAE8B3E00B62D78 /* BasicGuide.md */; settings = {ASSET_TAGS = (); }; };
 		FE833DD41BAE8B3E00B62D78 /* FunNameApi.m in Sources */ = {isa = PBXBuildFile; fileRef = FE833DD11BAE8B3E00B62D78 /* FunNameApi.m */; settings = {ASSET_TAGS = (); }; };
 		FE833DD51BAE8B3E00B62D78 /* ProGuide.md in Sources */ = {isa = PBXBuildFile; fileRef = FE833DD21BAE8B3E00B62D78 /* ProGuide.md */; settings = {ASSET_TAGS = (); }; };
@@ -47,6 +49,10 @@
 		FE2ABBED1BAEBC8B005CA114 /* ImportFiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImportFiles.h; sourceTree = "<group>"; };
 		FE2ABBEE1BAEBEBB005CA114 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = JSBProjectBase/Info.plist; sourceTree = SOURCE_ROOT; };
 		FE2ABBEF1BAEBEBB005CA114 /* JSBProjectBase.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSBProjectBase.pch; path = JSBProjectBase/JSBProjectBase.pch; sourceTree = SOURCE_ROOT; };
+		FE5F2D061BAEE4E10067A64E /* JSBitMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBitMask.h; sourceTree = "<group>"; };
+		FE5F2D071BAEE4E10067A64E /* JSBitMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBitMask.m; sourceTree = "<group>"; };
+		FE5F2D0C1BAEE9060067A64E /* JSBUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBUserDefaults.h; sourceTree = "<group>"; };
+		FE5F2D0D1BAEE9060067A64E /* JSBUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBUserDefaults.m; sourceTree = "<group>"; };
 		FE833DCF1BAE8B3E00B62D78 /* BasicGuide.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = BasicGuide.md; sourceTree = "<group>"; };
 		FE833DD01BAE8B3E00B62D78 /* FunNameApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunNameApi.h; sourceTree = "<group>"; };
 		FE833DD11BAE8B3E00B62D78 /* FunNameApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunNameApi.m; sourceTree = "<group>"; };
@@ -137,8 +143,26 @@
 			isa = PBXGroup;
 			children = (
 				FE2ABBED1BAEBC8B005CA114 /* ImportFiles.h */,
+				FE5F2D061BAEE4E10067A64E /* JSBitMask.h */,
+				FE5F2D071BAEE4E10067A64E /* JSBitMask.m */,
+				FE5F2D0C1BAEE9060067A64E /* JSBUserDefaults.h */,
+				FE5F2D0D1BAEE9060067A64E /* JSBUserDefaults.m */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		FE5F2D041BAED1930067A64E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE5F2D051BAED1930067A64E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		FE833DCE1BAE8B3E00B62D78 /* intro */ = {
@@ -221,6 +245,8 @@
 		FE927F701BAE537B00233E96 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				FE5F2D041BAED1930067A64E /* View */,
+				FE5F2D051BAED1930067A64E /* ViewController */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -440,9 +466,11 @@
 			files = (
 				FE2ABBE81BAEBAA4005CA114 /* main.m in Sources */,
 				FE833DD31BAE8B3E00B62D78 /* BasicGuide.md in Sources */,
+				FE5F2D0E1BAEE9060067A64E /* JSBUserDefaults.m in Sources */,
 				FE833DE71BAE96D000B62D78 /* ObjList.m in Sources */,
 				FE833DE41BAE960000B62D78 /* ObjJSON.m in Sources */,
 				FE833DD51BAE8B3E00B62D78 /* ProGuide.md in Sources */,
+				FE5F2D081BAEE4E10067A64E /* JSBitMask.m in Sources */,
 				FE927F791BAE540200233E96 /* ViewController.m in Sources */,
 				FE833DD41BAE8B3E00B62D78 /* FunNameApi.m in Sources */,
 				FE927F401BAE41BC00233E96 /* AppDelegate.m in Sources */,
