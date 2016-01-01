@@ -21,9 +21,7 @@
 
 
 /**
- *  管理属性中的
- *
- *  @return <#return value description#>
+ *  管理属性中的对象
  */
 + (NSDictionary *)objectClassInArray {
     

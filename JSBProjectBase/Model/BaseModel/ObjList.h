@@ -25,7 +25,6 @@
 - (ObjBase *)findObjBase:(NSNumber *) guid;
 
 
-
 /**
  *  添加一个对象
  *
@@ -80,14 +79,12 @@
  */
 - (void)removeAllObjBase;
 
-
 /**
  *  获得列表个数
  *
  *  @return 返回列表个数
  */
 - (NSUInteger) countOfList;
-
 
 /**
  *  根据id大小排序后限制列表大小

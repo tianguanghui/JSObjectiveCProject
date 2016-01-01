@@ -9,30 +9,20 @@
 #import <Foundation/Foundation.h>
 #import "ObjJSON.h"
 
-/**
- *  数据模块的基础类
- */
+/***  数据模块的基础类 */
 @interface ObjBase : ObjJSON
 
 
-/**
- *  对象的唯一id
- */
+/***  对象的唯一id*/
 @property (nonatomic,retain)id    guid;
 
-/**
- *  对象类型
- */
+/***  对象类型*/
 @property (nonatomic,retain)NSString        *class_type;
 
-/**
- *  创建时间
- */
+/***  创建时间*/
 @property (nonatomic,retain)NSString        *created_at;
 
-/**
- *  更新时间
- */
+/***  更新时间*/
 @property (nonatomic,retain)NSString        *updated_at;
 
 
@@ -43,18 +33,13 @@
 
 @end
 
-/**
- *  ObjBase排序实现
- */
+/***  ObjBase排序实现*/
 @interface ObjBase (numericComparison)
 
-/*
- 按id降序排序(即先看到最新的内容)
- */
+/*按id降序排序(即先看到最新的内容)*/
 - (NSComparisonResult) compareNumericallyDESC:(ObjBase *) other;
-/**
- *  按id升序，即最旧的内容在先
- */
+
+/***  按id升序，即最旧的内容在先*/
 - (NSComparisonResult) compareNumericallyASC:(ObjBase *) other;
 
 
