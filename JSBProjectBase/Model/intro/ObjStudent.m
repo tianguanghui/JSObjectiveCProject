@@ -21,7 +21,7 @@
 
 
 /**
- *  管理属性中的对象
+ *  管理属性中的对象数组
  */
 + (NSDictionary *)objectClassInArray {
     

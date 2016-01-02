@@ -28,6 +28,8 @@
 		FEB1B4EB1C36B525003536C1 /* ObjList.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB1B4E31C36B525003536C1 /* ObjList.m */; };
 		FEB1B4EC1C36B525003536C1 /* ObjBook.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB1B4E61C36B525003536C1 /* ObjBook.m */; };
 		FEB1B4ED1C36B525003536C1 /* ObjStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB1B4E81C36B525003536C1 /* ObjStudent.m */; };
+		FEB1B4FD1C375378003536C1 /* citydata.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEB1B4FC1C375378003536C1 /* citydata.plist */; };
+		FEB1B5011C3753F6003536C1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEB1B5031C3753F6003536C1 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,9 @@
 		FEB1B4E61C36B525003536C1 /* ObjBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjBook.m; sourceTree = "<group>"; };
 		FEB1B4E71C36B525003536C1 /* ObjStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjStudent.h; sourceTree = "<group>"; };
 		FEB1B4E81C36B525003536C1 /* ObjStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjStudent.m; sourceTree = "<group>"; };
+		FEB1B4FC1C375378003536C1 /* citydata.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = citydata.plist; sourceTree = "<group>"; };
+		FEB1B5041C3753FA003536C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FEB1B5071C37551C003536C1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		FFF5C92BCB1799B60751ECA8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -226,6 +231,9 @@
 		FE927F741BAE537B00233E96 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FEB1B4FE1C3753A9003536C1 /* International */,
+				FEB1B4FA1C375368003536C1 /* image */,
+				FEB1B4FB1C375368003536C1 /* plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -410,6 +418,29 @@
 			path = UIViewController;
 			sourceTree = "<group>";
 		};
+		FEB1B4FA1C375368003536C1 /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		FEB1B4FB1C375368003536C1 /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				FEB1B4FC1C375378003536C1 /* citydata.plist */,
+			);
+			path = plist;
+			sourceTree = "<group>";
+		};
+		FEB1B4FE1C3753A9003536C1 /* International */ = {
+			isa = PBXGroup;
+			children = (
+				FEB1B5031C3753F6003536C1 /* Localizable.strings */,
+			);
+			path = International;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -476,6 +507,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = FE927F2F1BAE41BC00233E96;
 			productRefGroup = FE927F391BAE41BC00233E96 /* Products */;
@@ -496,6 +528,8 @@
 				FE927F4B1BAE41BD00233E96 /* LaunchScreen.storyboard in Resources */,
 				FE927F481BAE41BD00233E96 /* Assets.xcassets in Resources */,
 				FE2ABBE91BAEBAA4005CA114 /* thirdPartyLink.txt in Resources */,
+				FEB1B5011C3753F6003536C1 /* Localizable.strings in Resources */,
+				FEB1B4FD1C375378003536C1 /* citydata.plist in Resources */,
 				FE2ABBF01BAEBEBB005CA114 /* Info.plist in Resources */,
 				FE927F461BAE41BC00233E96 /* Main.storyboard in Resources */,
 			);
@@ -613,6 +647,15 @@
 				FE927F4A1BAE41BD00233E96 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FEB1B5031C3753F6003536C1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEB1B5041C3753FA003536C1 /* en */,
+				FEB1B5071C37551C003536C1 /* zh-Hans */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
