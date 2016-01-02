@@ -6,6 +6,10 @@
 //  Copyright © 2015年 JungleSong. All rights reserved.
 //
 
+/**
+ *  采用MJExtension解析Model
+ */
+
 #import "ObjBase.h"
 
 @interface ObjBook : ObjBase

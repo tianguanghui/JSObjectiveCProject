@@ -26,10 +26,12 @@
 		FEB1B4E91C36B525003536C1 /* ObjBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB1B4DF1C36B525003536C1 /* ObjBase.m */; };
 		FEB1B4EA1C36B525003536C1 /* ObjJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB1B4E11C36B525003536C1 /* ObjJSON.m */; };
 		FEB1B4EB1C36B525003536C1 /* ObjList.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB1B4E31C36B525003536C1 /* ObjList.m */; };
-		FEB1B4EC1C36B525003536C1 /* ObjBook.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB1B4E61C36B525003536C1 /* ObjBook.m */; };
-		FEB1B4ED1C36B525003536C1 /* ObjStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB1B4E81C36B525003536C1 /* ObjStudent.m */; };
 		FEB1B4FD1C375378003536C1 /* citydata.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEB1B4FC1C375378003536C1 /* citydata.plist */; };
 		FEB1B5011C3753F6003536C1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEB1B5031C3753F6003536C1 /* Localizable.strings */; };
+		FEB1B50D1C376360003536C1 /* ObjBook.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB1B50A1C376360003536C1 /* ObjBook.m */; };
+		FEB1B50E1C376360003536C1 /* ObjStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB1B50C1C376360003536C1 /* ObjStudent.m */; };
+		FEB1B5121C3763BB003536C1 /* ObjUser.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB1B5111C3763BB003536C1 /* ObjUser.m */; };
+		FEB1B5151C3768C6003536C1 /* ObjUserPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB1B5141C3768C6003536C1 /* ObjUserPhone.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,13 +79,17 @@
 		FEB1B4E11C36B525003536C1 /* ObjJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjJSON.m; sourceTree = "<group>"; };
 		FEB1B4E21C36B525003536C1 /* ObjList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjList.h; sourceTree = "<group>"; };
 		FEB1B4E31C36B525003536C1 /* ObjList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjList.m; sourceTree = "<group>"; };
-		FEB1B4E51C36B525003536C1 /* ObjBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjBook.h; sourceTree = "<group>"; };
-		FEB1B4E61C36B525003536C1 /* ObjBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjBook.m; sourceTree = "<group>"; };
-		FEB1B4E71C36B525003536C1 /* ObjStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjStudent.h; sourceTree = "<group>"; };
-		FEB1B4E81C36B525003536C1 /* ObjStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjStudent.m; sourceTree = "<group>"; };
 		FEB1B4FC1C375378003536C1 /* citydata.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = citydata.plist; sourceTree = "<group>"; };
 		FEB1B5041C3753FA003536C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FEB1B5071C37551C003536C1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		FEB1B5091C376360003536C1 /* ObjBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjBook.h; sourceTree = "<group>"; };
+		FEB1B50A1C376360003536C1 /* ObjBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjBook.m; sourceTree = "<group>"; };
+		FEB1B50B1C376360003536C1 /* ObjStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjStudent.h; sourceTree = "<group>"; };
+		FEB1B50C1C376360003536C1 /* ObjStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjStudent.m; sourceTree = "<group>"; };
+		FEB1B5101C3763BB003536C1 /* ObjUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjUser.h; sourceTree = "<group>"; };
+		FEB1B5111C3763BB003536C1 /* ObjUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjUser.m; sourceTree = "<group>"; };
+		FEB1B5131C3768C6003536C1 /* ObjUserPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjUserPhone.h; sourceTree = "<group>"; };
+		FEB1B5141C3768C6003536C1 /* ObjUserPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjUserPhone.m; sourceTree = "<group>"; };
 		FFF5C92BCB1799B60751ECA8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -300,8 +306,9 @@
 		FEB1B4DC1C36B525003536C1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FEB1B50F1C376380003536C1 /* ModelJsonUsage */,
+				FEB1B5081C376360003536C1 /* MJExtensionUseage */,
 				FEB1B4DD1C36B525003536C1 /* BaseModel */,
-				FEB1B4E41C36B525003536C1 /* intro */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -309,25 +316,14 @@
 		FEB1B4DD1C36B525003536C1 /* BaseModel */ = {
 			isa = PBXGroup;
 			children = (
-				FEB1B4DE1C36B525003536C1 /* ObjBase.h */,
-				FEB1B4DF1C36B525003536C1 /* ObjBase.m */,
 				FEB1B4E01C36B525003536C1 /* ObjJSON.h */,
 				FEB1B4E11C36B525003536C1 /* ObjJSON.m */,
+				FEB1B4DE1C36B525003536C1 /* ObjBase.h */,
+				FEB1B4DF1C36B525003536C1 /* ObjBase.m */,
 				FEB1B4E21C36B525003536C1 /* ObjList.h */,
 				FEB1B4E31C36B525003536C1 /* ObjList.m */,
 			);
 			path = BaseModel;
-			sourceTree = "<group>";
-		};
-		FEB1B4E41C36B525003536C1 /* intro */ = {
-			isa = PBXGroup;
-			children = (
-				FEB1B4E51C36B525003536C1 /* ObjBook.h */,
-				FEB1B4E61C36B525003536C1 /* ObjBook.m */,
-				FEB1B4E71C36B525003536C1 /* ObjStudent.h */,
-				FEB1B4E81C36B525003536C1 /* ObjStudent.m */,
-			);
-			path = intro;
 			sourceTree = "<group>";
 		};
 		FEB1B4EE1C36B55C003536C1 /* SDKUsage */ = {
@@ -439,6 +435,28 @@
 				FEB1B5031C3753F6003536C1 /* Localizable.strings */,
 			);
 			path = International;
+			sourceTree = "<group>";
+		};
+		FEB1B5081C376360003536C1 /* MJExtensionUseage */ = {
+			isa = PBXGroup;
+			children = (
+				FEB1B5091C376360003536C1 /* ObjBook.h */,
+				FEB1B50A1C376360003536C1 /* ObjBook.m */,
+				FEB1B50B1C376360003536C1 /* ObjStudent.h */,
+				FEB1B50C1C376360003536C1 /* ObjStudent.m */,
+			);
+			path = MJExtensionUseage;
+			sourceTree = "<group>";
+		};
+		FEB1B50F1C376380003536C1 /* ModelJsonUsage */ = {
+			isa = PBXGroup;
+			children = (
+				FEB1B5101C3763BB003536C1 /* ObjUser.h */,
+				FEB1B5111C3763BB003536C1 /* ObjUser.m */,
+				FEB1B5131C3768C6003536C1 /* ObjUserPhone.h */,
+				FEB1B5141C3768C6003536C1 /* ObjUserPhone.m */,
+			);
+			path = ModelJsonUsage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -597,8 +615,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEB1B4ED1C36B525003536C1 /* ObjStudent.m in Sources */,
 				FE2ABBE81BAEBAA4005CA114 /* main.m in Sources */,
+				FEB1B50E1C376360003536C1 /* ObjStudent.m in Sources */,
+				FEB1B5121C3763BB003536C1 /* ObjUser.m in Sources */,
 				FE833DD31BAE8B3E00B62D78 /* BasicGuide.md in Sources */,
 				FEB1B4EB1C36B525003536C1 /* ObjList.m in Sources */,
 				FE5F2D0E1BAEE9060067A64E /* JSBUserDefaults.m in Sources */,
@@ -609,7 +628,8 @@
 				FE833DD41BAE8B3E00B62D78 /* FunNameApi.m in Sources */,
 				FE927F401BAE41BC00233E96 /* AppDelegate.m in Sources */,
 				FE833DDB1BAE8B6900B62D78 /* UploadImageApi.m in Sources */,
-				FEB1B4EC1C36B525003536C1 /* ObjBook.m in Sources */,
+				FEB1B5151C3768C6003536C1 /* ObjUserPhone.m in Sources */,
+				FEB1B50D1C376360003536C1 /* ObjBook.m in Sources */,
 				FE833DDA1BAE8B6900B62D78 /* GetImageApi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

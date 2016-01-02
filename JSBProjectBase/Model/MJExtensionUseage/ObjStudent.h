@@ -11,9 +11,9 @@
 
 @interface ObjStudent : ObjBase
 
-@property (nonatomic ,copy)NSString     *stu_name;
-@property (nonatomic ,assign)NSInteger     *stu_id;
+@property (nonatomic ,copy)NSString         *stu_name;
+@property (nonatomic ,assign)NSInteger      *stu_id;
 
-@property (nonatomic ,strong)NSArray       *stu_books;
+@property (nonatomic ,strong)NSArray        *stu_books;
 
 @end
