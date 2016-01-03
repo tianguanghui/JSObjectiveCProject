@@ -29,6 +29,8 @@
 		FE19F9971C39CF1D009986FE /* TestHttpAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F98E1C39CF1D009986FE /* TestHttpAction.m */; };
 		FE19F9981C39CF1D009986FE /* ValidationAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9901C39CF1D009986FE /* ValidationAction.m */; };
 		FE19F99B1C39CF4D009986FE /* FontUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F99A1C39CF4D009986FE /* FontUsage.m */; };
+		FE19F99F1C39D393009986FE /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F99E1C39D393009986FE /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FE19F9A21C39D3BD009986FE /* KeychainUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9A11C39D3BD009986FE /* KeychainUsage.m */; };
 		FE2ABBE81BAEBAA4005CA114 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2ABBE51BAEBAA4005CA114 /* main.m */; };
 		FE2ABBE91BAEBAA4005CA114 /* thirdPartyLink.txt in Resources */ = {isa = PBXBuildFile; fileRef = FE2ABBE61BAEBAA4005CA114 /* thirdPartyLink.txt */; };
 		FE2ABBF01BAEBEBB005CA114 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE2ABBEE1BAEBEBB005CA114 /* Info.plist */; };
@@ -98,6 +100,10 @@
 		FE19F9901C39CF1D009986FE /* ValidationAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValidationAction.m; sourceTree = "<group>"; };
 		FE19F9991C39CF4D009986FE /* FontUsage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontUsage.h; sourceTree = "<group>"; };
 		FE19F99A1C39CF4D009986FE /* FontUsage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontUsage.m; sourceTree = "<group>"; };
+		FE19F99D1C39D393009986FE /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		FE19F99E1C39D393009986FE /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		FE19F9A01C39D3BD009986FE /* KeychainUsage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainUsage.h; sourceTree = "<group>"; };
+		FE19F9A11C39D3BD009986FE /* KeychainUsage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainUsage.m; sourceTree = "<group>"; };
 		FE2ABBE51BAEBAA4005CA114 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FE2ABBE61BAEBAA4005CA114 /* thirdPartyLink.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = thirdPartyLink.txt; sourceTree = "<group>"; };
 		FE2ABBED1BAEBC8B005CA114 /* ImportFiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImportFiles.h; sourceTree = "<group>"; };
@@ -234,6 +240,17 @@
 			path = Usage;
 			sourceTree = "<group>";
 		};
+		FE19F99C1C39D382009986FE /* Safety */ = {
+			isa = PBXGroup;
+			children = (
+				FE19F99D1C39D393009986FE /* KeychainItemWrapper.h */,
+				FE19F99E1C39D393009986FE /* KeychainItemWrapper.m */,
+				FE19F9A01C39D3BD009986FE /* KeychainUsage.h */,
+				FE19F9A11C39D3BD009986FE /* KeychainUsage.m */,
+			);
+			path = Safety;
+			sourceTree = "<group>";
+		};
 		FE2ABBE21BAEBAA4005CA114 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -339,6 +356,7 @@
 		FE927F751BAE537B00233E96 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				FE19F99C1C39D382009986FE /* Safety */,
 				FEB1B4D61C36B4EA003536C1 /* Macros */,
 				FEB1B4D51C36B4DE003536C1 /* Categories */,
 				FE2ABBEB1BAEBC5C005CA114 /* Theme */,
@@ -693,6 +711,7 @@
 				FE19F94D1C394696009986FE /* FunNameApi.m in Sources */,
 				FEB1B50E1C376360003536C1 /* ObjStudent.m in Sources */,
 				FEB1B5121C3763BB003536C1 /* ObjUser.m in Sources */,
+				FE19F9A21C39D3BD009986FE /* KeychainUsage.m in Sources */,
 				FE19F94E1C394696009986FE /* GetImageApi.m in Sources */,
 				FE5F2D0E1BAEE9060067A64E /* JSBUserDefaults.m in Sources */,
 				FE19F9941C39CF1D009986FE /* GetUserInfoWithIDAction.m in Sources */,
@@ -706,6 +725,7 @@
 				FE19F9781C395D42009986FE /* ObjJSON.m in Sources */,
 				FE19F9921C39CF1D009986FE /* JSBHttpActionManager.m in Sources */,
 				FE19F95F1C395508009986FE /* NSString+Random.m in Sources */,
+				FE19F99F1C39D393009986FE /* KeychainItemWrapper.m in Sources */,
 				FE19F9951C39CF1D009986FE /* SignOutAction.m in Sources */,
 				FE19F9501C394696009986FE /* UploadImageApi.m in Sources */,
 				FEB1B5151C3768C6003536C1 /* ObjUserPhone.m in Sources */,

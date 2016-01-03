@@ -47,10 +47,10 @@
     self = [super init];
     if( self )
     {
-        NSNumber * number_guid  = [self ReadField_Number:data WithFieldName:@"id"];
+        NSNumber * number_guid  = [self readNumberField:data fieldName:@"id"];
         if( number_guid == nil )
         {
-            NSString * string_guid = [self ReadField_String:data WithFieldName:@"id"];
+            NSString * string_guid = [self readStringField:data fieldName:@"id"];
             if( string_guid )
             {
                 self.guid = string_guid;
@@ -60,10 +60,9 @@
             self.guid = number_guid;
         }
         
-        self.class_type = [self ReadField_String:data WithFieldName:@"class_type"];
-        self.created_at = [self ReadField_String:data WithFieldName:@"created_at"];
-        self.updated_at = [self ReadField_String:data WithFieldName:@"updated_at"];
-        
+        self.class_type = [self readStringField:data fieldName:@"class_type"];
+        self.created_at = [self readStringField:data fieldName:@"created_at"];
+        self.updated_at = [self readStringField:data fieldName:@"updated_at"];        
     }
     
     return self;
