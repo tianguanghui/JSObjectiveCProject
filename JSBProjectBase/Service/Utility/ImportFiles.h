@@ -60,6 +60,11 @@
  *  工具类文件
  */
 
+//network
+#import "JSBHttpActionManager.h"
+#import "JSBHttpResponseResult.h"
+#import "JSBHttpActionBase.h"
+
 #pragma mark- object class
 /**
  *  Obj文件
