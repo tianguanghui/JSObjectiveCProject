@@ -23,6 +23,9 @@
 		FE19F9691C395724009986FE /* SignUpAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9681C395724009986FE /* SignUpAction.m */; };
 		FE19F96C1C395846009986FE /* ValidationAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F96B1C395846009986FE /* ValidationAction.m */; };
 		FE19F96F1C3958AC009986FE /* TestHttpAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F96E1C3958AC009986FE /* TestHttpAction.m */; };
+		FE19F9771C395D42009986FE /* ObjBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9721C395D42009986FE /* ObjBase.m */; };
+		FE19F9781C395D42009986FE /* ObjJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9741C395D42009986FE /* ObjJSON.m */; };
+		FE19F9791C395D42009986FE /* ObjList.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9761C395D42009986FE /* ObjList.m */; };
 		FE2ABBE81BAEBAA4005CA114 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2ABBE51BAEBAA4005CA114 /* main.m */; };
 		FE2ABBE91BAEBAA4005CA114 /* thirdPartyLink.txt in Resources */ = {isa = PBXBuildFile; fileRef = FE2ABBE61BAEBAA4005CA114 /* thirdPartyLink.txt */; };
 		FE2ABBF01BAEBEBB005CA114 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE2ABBEE1BAEBEBB005CA114 /* Info.plist */; };
@@ -33,9 +36,6 @@
 		FE927F481BAE41BD00233E96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE927F471BAE41BD00233E96 /* Assets.xcassets */; };
 		FE927F4B1BAE41BD00233E96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE927F491BAE41BD00233E96 /* LaunchScreen.storyboard */; };
 		FE927F561BAE41BD00233E96 /* JSBProjectBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE927F551BAE41BD00233E96 /* JSBProjectBaseTests.m */; };
-		FEB1B4E91C36B525003536C1 /* ObjBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB1B4DF1C36B525003536C1 /* ObjBase.m */; };
-		FEB1B4EA1C36B525003536C1 /* ObjJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB1B4E11C36B525003536C1 /* ObjJSON.m */; };
-		FEB1B4EB1C36B525003536C1 /* ObjList.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB1B4E31C36B525003536C1 /* ObjList.m */; };
 		FEB1B4FD1C375378003536C1 /* citydata.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEB1B4FC1C375378003536C1 /* citydata.plist */; };
 		FEB1B5011C3753F6003536C1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEB1B5031C3753F6003536C1 /* Localizable.strings */; };
 		FEB1B50D1C376360003536C1 /* ObjBook.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB1B50A1C376360003536C1 /* ObjBook.m */; };
@@ -85,6 +85,12 @@
 		FE19F96B1C395846009986FE /* ValidationAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValidationAction.m; sourceTree = "<group>"; };
 		FE19F96D1C3958AC009986FE /* TestHttpAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestHttpAction.h; sourceTree = "<group>"; };
 		FE19F96E1C3958AC009986FE /* TestHttpAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestHttpAction.m; sourceTree = "<group>"; };
+		FE19F9711C395D42009986FE /* ObjBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjBase.h; sourceTree = "<group>"; };
+		FE19F9721C395D42009986FE /* ObjBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjBase.m; sourceTree = "<group>"; };
+		FE19F9731C395D42009986FE /* ObjJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjJSON.h; sourceTree = "<group>"; };
+		FE19F9741C395D42009986FE /* ObjJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjJSON.m; sourceTree = "<group>"; };
+		FE19F9751C395D42009986FE /* ObjList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjList.h; sourceTree = "<group>"; };
+		FE19F9761C395D42009986FE /* ObjList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjList.m; sourceTree = "<group>"; };
 		FE2ABBE51BAEBAA4005CA114 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FE2ABBE61BAEBAA4005CA114 /* thirdPartyLink.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = thirdPartyLink.txt; sourceTree = "<group>"; };
 		FE2ABBED1BAEBC8B005CA114 /* ImportFiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImportFiles.h; sourceTree = "<group>"; };
@@ -103,12 +109,6 @@
 		FE927F511BAE41BD00233E96 /* JSBProjectBaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSBProjectBaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE927F551BAE41BD00233E96 /* JSBProjectBaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSBProjectBaseTests.m; sourceTree = "<group>"; };
 		FE927F571BAE41BD00233E96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FEB1B4DE1C36B525003536C1 /* ObjBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjBase.h; sourceTree = "<group>"; };
-		FEB1B4DF1C36B525003536C1 /* ObjBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjBase.m; sourceTree = "<group>"; };
-		FEB1B4E01C36B525003536C1 /* ObjJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjJSON.h; sourceTree = "<group>"; };
-		FEB1B4E11C36B525003536C1 /* ObjJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjJSON.m; sourceTree = "<group>"; };
-		FEB1B4E21C36B525003536C1 /* ObjList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjList.h; sourceTree = "<group>"; };
-		FEB1B4E31C36B525003536C1 /* ObjList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjList.m; sourceTree = "<group>"; };
 		FEB1B4FC1C375378003536C1 /* citydata.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = citydata.plist; sourceTree = "<group>"; };
 		FEB1B5041C3753FA003536C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FEB1B5071C37551C003536C1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -203,6 +203,19 @@
 				FE19F96E1C3958AC009986FE /* TestHttpAction.m */,
 			);
 			path = Usage;
+			sourceTree = "<group>";
+		};
+		FE19F9701C395D42009986FE /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				FE19F9711C395D42009986FE /* ObjBase.h */,
+				FE19F9721C395D42009986FE /* ObjBase.m */,
+				FE19F9731C395D42009986FE /* ObjJSON.h */,
+				FE19F9741C395D42009986FE /* ObjJSON.m */,
+				FE19F9751C395D42009986FE /* ObjList.h */,
+				FE19F9761C395D42009986FE /* ObjList.m */,
+			);
+			path = BaseModel;
 			sourceTree = "<group>";
 		};
 		FE2ABBE21BAEBAA4005CA114 /* Supporting Files */ = {
@@ -358,22 +371,8 @@
 			children = (
 				FEB1B50F1C376380003536C1 /* ModelJsonUsage */,
 				FEB1B5081C376360003536C1 /* MJExtensionUseage */,
-				FEB1B4DD1C36B525003536C1 /* BaseModel */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		FEB1B4DD1C36B525003536C1 /* BaseModel */ = {
-			isa = PBXGroup;
-			children = (
-				FEB1B4E01C36B525003536C1 /* ObjJSON.h */,
-				FEB1B4E11C36B525003536C1 /* ObjJSON.m */,
-				FEB1B4DE1C36B525003536C1 /* ObjBase.h */,
-				FEB1B4DF1C36B525003536C1 /* ObjBase.m */,
-				FEB1B4E21C36B525003536C1 /* ObjList.h */,
-				FEB1B4E31C36B525003536C1 /* ObjList.m */,
-			);
-			path = BaseModel;
 			sourceTree = "<group>";
 		};
 		FEB1B4EE1C36B55C003536C1 /* SDKUsage */ = {
@@ -501,6 +500,7 @@
 		FEB1B50F1C376380003536C1 /* ModelJsonUsage */ = {
 			isa = PBXGroup;
 			children = (
+				FE19F9701C395D42009986FE /* BaseModel */,
 				FEB1B5101C3763BB003536C1 /* ObjUser.h */,
 				FEB1B5111C3763BB003536C1 /* ObjUser.m */,
 				FEB1B5131C3768C6003536C1 /* ObjUserPhone.h */,
@@ -667,22 +667,22 @@
 			files = (
 				FE2ABBE81BAEBAA4005CA114 /* main.m in Sources */,
 				FE19F96C1C395846009986FE /* ValidationAction.m in Sources */,
+				FE19F9771C395D42009986FE /* ObjBase.m in Sources */,
 				FE19F9661C39569E009986FE /* GetUserInfoWithIDAction.m in Sources */,
 				FE19F94D1C394696009986FE /* FunNameApi.m in Sources */,
 				FEB1B50E1C376360003536C1 /* ObjStudent.m in Sources */,
 				FEB1B5121C3763BB003536C1 /* ObjUser.m in Sources */,
-				FEB1B4EB1C36B525003536C1 /* ObjList.m in Sources */,
 				FE19F9631C395613009986FE /* SignOutAction.m in Sources */,
 				FE19F94E1C394696009986FE /* GetImageApi.m in Sources */,
 				FE5F2D0E1BAEE9060067A64E /* JSBUserDefaults.m in Sources */,
-				FEB1B4EA1C36B525003536C1 /* ObjJSON.m in Sources */,
 				FE5F2D081BAEE4E10067A64E /* JSBitMask.m in Sources */,
 				FE19F9561C394AAC009986FE /* JSBHttpResponseResult.m in Sources */,
-				FEB1B4E91C36B525003536C1 /* ObjBase.m in Sources */,
 				FE19F9691C395724009986FE /* SignUpAction.m in Sources */,
 				FE19F94F1C394696009986FE /* ProGuide.md in Sources */,
 				FE19F94C1C394696009986FE /* BasicGuide.md in Sources */,
+				FE19F9791C395D42009986FE /* ObjList.m in Sources */,
 				FE927F401BAE41BC00233E96 /* AppDelegate.m in Sources */,
+				FE19F9781C395D42009986FE /* ObjJSON.m in Sources */,
 				FE19F95F1C395508009986FE /* NSString+Random.m in Sources */,
 				FE19F9501C394696009986FE /* UploadImageApi.m in Sources */,
 				FE19F9531C3947D7009986FE /* JSBHttpActionManager.m in Sources */,
