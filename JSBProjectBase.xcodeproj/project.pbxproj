@@ -13,19 +13,22 @@
 		FE19F94E1C394696009986FE /* GetImageApi.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9481C394696009986FE /* GetImageApi.m */; };
 		FE19F94F1C394696009986FE /* ProGuide.md in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9491C394696009986FE /* ProGuide.md */; };
 		FE19F9501C394696009986FE /* UploadImageApi.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F94B1C394696009986FE /* UploadImageApi.m */; };
-		FE19F9531C3947D7009986FE /* JSBHttpActionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9521C3947D7009986FE /* JSBHttpActionManager.m */; };
-		FE19F9561C394AAC009986FE /* JSBHttpResponseResult.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9551C394AAC009986FE /* JSBHttpResponseResult.m */; };
-		FE19F9591C394D7A009986FE /* JSBHttpActionBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9581C394D7A009986FE /* JSBHttpActionBase.m */; };
 		FE19F95C1C3954CE009986FE /* UIImage+Clip.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F95B1C3954CE009986FE /* UIImage+Clip.m */; };
 		FE19F95F1C395508009986FE /* NSString+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F95E1C395508009986FE /* NSString+Random.m */; };
-		FE19F9631C395613009986FE /* SignOutAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9621C395613009986FE /* SignOutAction.m */; };
-		FE19F9661C39569E009986FE /* GetUserInfoWithIDAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9651C39569E009986FE /* GetUserInfoWithIDAction.m */; };
-		FE19F9691C395724009986FE /* SignUpAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9681C395724009986FE /* SignUpAction.m */; };
-		FE19F96C1C395846009986FE /* ValidationAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F96B1C395846009986FE /* ValidationAction.m */; };
-		FE19F96F1C3958AC009986FE /* TestHttpAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F96E1C3958AC009986FE /* TestHttpAction.m */; };
 		FE19F9771C395D42009986FE /* ObjBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9721C395D42009986FE /* ObjBase.m */; };
 		FE19F9781C395D42009986FE /* ObjJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9741C395D42009986FE /* ObjJSON.m */; };
 		FE19F9791C395D42009986FE /* ObjList.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9761C395D42009986FE /* ObjList.m */; };
+		FE19F97D1C39CEBC009986FE /* Omnes_Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE19F97B1C39CEBC009986FE /* Omnes_Light.ttf */; };
+		FE19F97E1C39CEBC009986FE /* Omnes_Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE19F97C1C39CEBC009986FE /* Omnes_Medium.ttf */; };
+		FE19F9911C39CF1D009986FE /* JSBHttpActionBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9811C39CF1D009986FE /* JSBHttpActionBase.m */; };
+		FE19F9921C39CF1D009986FE /* JSBHttpActionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9831C39CF1D009986FE /* JSBHttpActionManager.m */; };
+		FE19F9931C39CF1D009986FE /* JSBHttpResponseResult.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9851C39CF1D009986FE /* JSBHttpResponseResult.m */; };
+		FE19F9941C39CF1D009986FE /* GetUserInfoWithIDAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9881C39CF1D009986FE /* GetUserInfoWithIDAction.m */; };
+		FE19F9951C39CF1D009986FE /* SignOutAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F98A1C39CF1D009986FE /* SignOutAction.m */; };
+		FE19F9961C39CF1D009986FE /* SignUpAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F98C1C39CF1D009986FE /* SignUpAction.m */; };
+		FE19F9971C39CF1D009986FE /* TestHttpAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F98E1C39CF1D009986FE /* TestHttpAction.m */; };
+		FE19F9981C39CF1D009986FE /* ValidationAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9901C39CF1D009986FE /* ValidationAction.m */; };
+		FE19F99B1C39CF4D009986FE /* FontUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F99A1C39CF4D009986FE /* FontUsage.m */; };
 		FE2ABBE81BAEBAA4005CA114 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2ABBE51BAEBAA4005CA114 /* main.m */; };
 		FE2ABBE91BAEBAA4005CA114 /* thirdPartyLink.txt in Resources */ = {isa = PBXBuildFile; fileRef = FE2ABBE61BAEBAA4005CA114 /* thirdPartyLink.txt */; };
 		FE2ABBF01BAEBEBB005CA114 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE2ABBEE1BAEBEBB005CA114 /* Info.plist */; };
@@ -65,32 +68,36 @@
 		FE19F9491C394696009986FE /* ProGuide.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ProGuide.md; sourceTree = "<group>"; };
 		FE19F94A1C394696009986FE /* UploadImageApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadImageApi.h; sourceTree = "<group>"; };
 		FE19F94B1C394696009986FE /* UploadImageApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadImageApi.m; sourceTree = "<group>"; };
-		FE19F9511C3947D7009986FE /* JSBHttpActionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBHttpActionManager.h; sourceTree = "<group>"; };
-		FE19F9521C3947D7009986FE /* JSBHttpActionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBHttpActionManager.m; sourceTree = "<group>"; };
-		FE19F9541C394AAC009986FE /* JSBHttpResponseResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBHttpResponseResult.h; sourceTree = "<group>"; };
-		FE19F9551C394AAC009986FE /* JSBHttpResponseResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBHttpResponseResult.m; sourceTree = "<group>"; };
-		FE19F9571C394D7A009986FE /* JSBHttpActionBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBHttpActionBase.h; sourceTree = "<group>"; };
-		FE19F9581C394D7A009986FE /* JSBHttpActionBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBHttpActionBase.m; sourceTree = "<group>"; };
 		FE19F95A1C3954CE009986FE /* UIImage+Clip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Clip.h"; sourceTree = "<group>"; };
 		FE19F95B1C3954CE009986FE /* UIImage+Clip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Clip.m"; sourceTree = "<group>"; };
 		FE19F95D1C395508009986FE /* NSString+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Random.h"; sourceTree = "<group>"; };
 		FE19F95E1C395508009986FE /* NSString+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Random.m"; sourceTree = "<group>"; };
-		FE19F9611C395613009986FE /* SignOutAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignOutAction.h; sourceTree = "<group>"; };
-		FE19F9621C395613009986FE /* SignOutAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignOutAction.m; sourceTree = "<group>"; };
-		FE19F9641C39569E009986FE /* GetUserInfoWithIDAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetUserInfoWithIDAction.h; sourceTree = "<group>"; };
-		FE19F9651C39569E009986FE /* GetUserInfoWithIDAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetUserInfoWithIDAction.m; sourceTree = "<group>"; };
-		FE19F9671C395724009986FE /* SignUpAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpAction.h; sourceTree = "<group>"; };
-		FE19F9681C395724009986FE /* SignUpAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpAction.m; sourceTree = "<group>"; };
-		FE19F96A1C395846009986FE /* ValidationAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidationAction.h; sourceTree = "<group>"; };
-		FE19F96B1C395846009986FE /* ValidationAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValidationAction.m; sourceTree = "<group>"; };
-		FE19F96D1C3958AC009986FE /* TestHttpAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestHttpAction.h; sourceTree = "<group>"; };
-		FE19F96E1C3958AC009986FE /* TestHttpAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestHttpAction.m; sourceTree = "<group>"; };
 		FE19F9711C395D42009986FE /* ObjBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjBase.h; sourceTree = "<group>"; };
 		FE19F9721C395D42009986FE /* ObjBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjBase.m; sourceTree = "<group>"; };
 		FE19F9731C395D42009986FE /* ObjJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjJSON.h; sourceTree = "<group>"; };
 		FE19F9741C395D42009986FE /* ObjJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjJSON.m; sourceTree = "<group>"; };
 		FE19F9751C395D42009986FE /* ObjList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjList.h; sourceTree = "<group>"; };
 		FE19F9761C395D42009986FE /* ObjList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjList.m; sourceTree = "<group>"; };
+		FE19F97B1C39CEBC009986FE /* Omnes_Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Omnes_Light.ttf; sourceTree = "<group>"; };
+		FE19F97C1C39CEBC009986FE /* Omnes_Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Omnes_Medium.ttf; sourceTree = "<group>"; };
+		FE19F9801C39CF1D009986FE /* JSBHttpActionBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBHttpActionBase.h; sourceTree = "<group>"; };
+		FE19F9811C39CF1D009986FE /* JSBHttpActionBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBHttpActionBase.m; sourceTree = "<group>"; };
+		FE19F9821C39CF1D009986FE /* JSBHttpActionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBHttpActionManager.h; sourceTree = "<group>"; };
+		FE19F9831C39CF1D009986FE /* JSBHttpActionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBHttpActionManager.m; sourceTree = "<group>"; };
+		FE19F9841C39CF1D009986FE /* JSBHttpResponseResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBHttpResponseResult.h; sourceTree = "<group>"; };
+		FE19F9851C39CF1D009986FE /* JSBHttpResponseResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBHttpResponseResult.m; sourceTree = "<group>"; };
+		FE19F9871C39CF1D009986FE /* GetUserInfoWithIDAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetUserInfoWithIDAction.h; sourceTree = "<group>"; };
+		FE19F9881C39CF1D009986FE /* GetUserInfoWithIDAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetUserInfoWithIDAction.m; sourceTree = "<group>"; };
+		FE19F9891C39CF1D009986FE /* SignOutAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignOutAction.h; sourceTree = "<group>"; };
+		FE19F98A1C39CF1D009986FE /* SignOutAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignOutAction.m; sourceTree = "<group>"; };
+		FE19F98B1C39CF1D009986FE /* SignUpAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpAction.h; sourceTree = "<group>"; };
+		FE19F98C1C39CF1D009986FE /* SignUpAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpAction.m; sourceTree = "<group>"; };
+		FE19F98D1C39CF1D009986FE /* TestHttpAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestHttpAction.h; sourceTree = "<group>"; };
+		FE19F98E1C39CF1D009986FE /* TestHttpAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestHttpAction.m; sourceTree = "<group>"; };
+		FE19F98F1C39CF1D009986FE /* ValidationAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidationAction.h; sourceTree = "<group>"; };
+		FE19F9901C39CF1D009986FE /* ValidationAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValidationAction.m; sourceTree = "<group>"; };
+		FE19F9991C39CF4D009986FE /* FontUsage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontUsage.h; sourceTree = "<group>"; };
+		FE19F99A1C39CF4D009986FE /* FontUsage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontUsage.m; sourceTree = "<group>"; };
 		FE2ABBE51BAEBAA4005CA114 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FE2ABBE61BAEBAA4005CA114 /* thirdPartyLink.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = thirdPartyLink.txt; sourceTree = "<group>"; };
 		FE2ABBED1BAEBC8B005CA114 /* ImportFiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImportFiles.h; sourceTree = "<group>"; };
@@ -159,20 +166,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		FE19F9421C394696009986FE /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				FE19F9601C3955E4009986FE /* Usage */,
-				FE19F9511C3947D7009986FE /* JSBHttpActionManager.h */,
-				FE19F9521C3947D7009986FE /* JSBHttpActionManager.m */,
-				FE19F9541C394AAC009986FE /* JSBHttpResponseResult.h */,
-				FE19F9551C394AAC009986FE /* JSBHttpResponseResult.m */,
-				FE19F9571C394D7A009986FE /* JSBHttpActionBase.h */,
-				FE19F9581C394D7A009986FE /* JSBHttpActionBase.m */,
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
 		FE19F9431C394696009986FE /* YTKUsage */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,23 +181,6 @@
 			path = YTKUsage;
 			sourceTree = "<group>";
 		};
-		FE19F9601C3955E4009986FE /* Usage */ = {
-			isa = PBXGroup;
-			children = (
-				FE19F9671C395724009986FE /* SignUpAction.h */,
-				FE19F9681C395724009986FE /* SignUpAction.m */,
-				FE19F9611C395613009986FE /* SignOutAction.h */,
-				FE19F9621C395613009986FE /* SignOutAction.m */,
-				FE19F9641C39569E009986FE /* GetUserInfoWithIDAction.h */,
-				FE19F9651C39569E009986FE /* GetUserInfoWithIDAction.m */,
-				FE19F96A1C395846009986FE /* ValidationAction.h */,
-				FE19F96B1C395846009986FE /* ValidationAction.m */,
-				FE19F96D1C3958AC009986FE /* TestHttpAction.h */,
-				FE19F96E1C3958AC009986FE /* TestHttpAction.m */,
-			);
-			path = Usage;
-			sourceTree = "<group>";
-		};
 		FE19F9701C395D42009986FE /* BaseModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -216,6 +192,46 @@
 				FE19F9761C395D42009986FE /* ObjList.m */,
 			);
 			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		FE19F97A1C39CEAF009986FE /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				FE19F97B1C39CEBC009986FE /* Omnes_Light.ttf */,
+				FE19F97C1C39CEBC009986FE /* Omnes_Medium.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		FE19F97F1C39CF1D009986FE /* JSBNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				FE19F9801C39CF1D009986FE /* JSBHttpActionBase.h */,
+				FE19F9811C39CF1D009986FE /* JSBHttpActionBase.m */,
+				FE19F9821C39CF1D009986FE /* JSBHttpActionManager.h */,
+				FE19F9831C39CF1D009986FE /* JSBHttpActionManager.m */,
+				FE19F9841C39CF1D009986FE /* JSBHttpResponseResult.h */,
+				FE19F9851C39CF1D009986FE /* JSBHttpResponseResult.m */,
+				FE19F9861C39CF1D009986FE /* Usage */,
+			);
+			path = JSBNetwork;
+			sourceTree = "<group>";
+		};
+		FE19F9861C39CF1D009986FE /* Usage */ = {
+			isa = PBXGroup;
+			children = (
+				FE19F9871C39CF1D009986FE /* GetUserInfoWithIDAction.h */,
+				FE19F9881C39CF1D009986FE /* GetUserInfoWithIDAction.m */,
+				FE19F9891C39CF1D009986FE /* SignOutAction.h */,
+				FE19F98A1C39CF1D009986FE /* SignOutAction.m */,
+				FE19F98B1C39CF1D009986FE /* SignUpAction.h */,
+				FE19F98C1C39CF1D009986FE /* SignUpAction.m */,
+				FE19F98D1C39CF1D009986FE /* TestHttpAction.h */,
+				FE19F98E1C39CF1D009986FE /* TestHttpAction.m */,
+				FE19F98F1C39CF1D009986FE /* ValidationAction.h */,
+				FE19F9901C39CF1D009986FE /* ValidationAction.m */,
+			);
+			path = Usage;
 			sourceTree = "<group>";
 		};
 		FE2ABBE21BAEBAA4005CA114 /* Supporting Files */ = {
@@ -232,6 +248,8 @@
 		FE2ABBEB1BAEBC5C005CA114 /* Theme */ = {
 			isa = PBXGroup;
 			children = (
+				FE19F9991C39CF4D009986FE /* FontUsage.h */,
+				FE19F99A1C39CF4D009986FE /* FontUsage.m */,
 			);
 			path = Theme;
 			sourceTree = "<group>";
@@ -301,7 +319,7 @@
 		FE927F731BAE537B00233E96 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				FE19F9421C394696009986FE /* Network */,
+				FE19F97F1C39CF1D009986FE /* JSBNetwork */,
 				FE19F9431C394696009986FE /* YTKUsage */,
 			);
 			path = Network;
@@ -310,6 +328,7 @@
 		FE927F741BAE537B00233E96 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FE19F97A1C39CEAF009986FE /* Font */,
 				FEB1B4FE1C3753A9003536C1 /* International */,
 				FEB1B4FA1C375368003536C1 /* image */,
 				FEB1B4FB1C375368003536C1 /* plist */,
@@ -595,8 +614,10 @@
 			files = (
 				FE927F4B1BAE41BD00233E96 /* LaunchScreen.storyboard in Resources */,
 				FE927F481BAE41BD00233E96 /* Assets.xcassets in Resources */,
+				FE19F97E1C39CEBC009986FE /* Omnes_Medium.ttf in Resources */,
 				FE2ABBE91BAEBAA4005CA114 /* thirdPartyLink.txt in Resources */,
 				FEB1B5011C3753F6003536C1 /* Localizable.strings in Resources */,
+				FE19F97D1C39CEBC009986FE /* Omnes_Light.ttf in Resources */,
 				FEB1B4FD1C375378003536C1 /* citydata.plist in Resources */,
 				FE2ABBF01BAEBEBB005CA114 /* Info.plist in Resources */,
 				FE927F461BAE41BC00233E96 /* Main.storyboard in Resources */,
@@ -665,32 +686,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE19F9931C39CF1D009986FE /* JSBHttpResponseResult.m in Sources */,
 				FE2ABBE81BAEBAA4005CA114 /* main.m in Sources */,
-				FE19F96C1C395846009986FE /* ValidationAction.m in Sources */,
+				FE19F99B1C39CF4D009986FE /* FontUsage.m in Sources */,
 				FE19F9771C395D42009986FE /* ObjBase.m in Sources */,
-				FE19F9661C39569E009986FE /* GetUserInfoWithIDAction.m in Sources */,
 				FE19F94D1C394696009986FE /* FunNameApi.m in Sources */,
 				FEB1B50E1C376360003536C1 /* ObjStudent.m in Sources */,
 				FEB1B5121C3763BB003536C1 /* ObjUser.m in Sources */,
-				FE19F9631C395613009986FE /* SignOutAction.m in Sources */,
 				FE19F94E1C394696009986FE /* GetImageApi.m in Sources */,
 				FE5F2D0E1BAEE9060067A64E /* JSBUserDefaults.m in Sources */,
+				FE19F9941C39CF1D009986FE /* GetUserInfoWithIDAction.m in Sources */,
+				FE19F9971C39CF1D009986FE /* TestHttpAction.m in Sources */,
 				FE5F2D081BAEE4E10067A64E /* JSBitMask.m in Sources */,
-				FE19F9561C394AAC009986FE /* JSBHttpResponseResult.m in Sources */,
-				FE19F9691C395724009986FE /* SignUpAction.m in Sources */,
 				FE19F94F1C394696009986FE /* ProGuide.md in Sources */,
 				FE19F94C1C394696009986FE /* BasicGuide.md in Sources */,
 				FE19F9791C395D42009986FE /* ObjList.m in Sources */,
+				FE19F9961C39CF1D009986FE /* SignUpAction.m in Sources */,
 				FE927F401BAE41BC00233E96 /* AppDelegate.m in Sources */,
 				FE19F9781C395D42009986FE /* ObjJSON.m in Sources */,
+				FE19F9921C39CF1D009986FE /* JSBHttpActionManager.m in Sources */,
 				FE19F95F1C395508009986FE /* NSString+Random.m in Sources */,
+				FE19F9951C39CF1D009986FE /* SignOutAction.m in Sources */,
 				FE19F9501C394696009986FE /* UploadImageApi.m in Sources */,
-				FE19F9531C3947D7009986FE /* JSBHttpActionManager.m in Sources */,
 				FEB1B5151C3768C6003536C1 /* ObjUserPhone.m in Sources */,
+				FE19F9981C39CF1D009986FE /* ValidationAction.m in Sources */,
 				FE19F95C1C3954CE009986FE /* UIImage+Clip.m in Sources */,
 				FEB1B50D1C376360003536C1 /* ObjBook.m in Sources */,
-				FE19F9591C394D7A009986FE /* JSBHttpActionBase.m in Sources */,
-				FE19F96F1C3958AC009986FE /* TestHttpAction.m in Sources */,
+				FE19F9911C39CF1D009986FE /* JSBHttpActionBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
