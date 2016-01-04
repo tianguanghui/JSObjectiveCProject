@@ -14,5 +14,14 @@
  *  
  */
 @interface JSBProjectInfo : NSObject
+/**
+ *  获取app info.plist的信息
+ */
++ (NSDictionary *) appInfo;
++ (NSString *)appDisplayName;
++ (NSString *)executeable;
++ (NSString *)bundleIdentifier;
++ (float)shortVersion;
++ (float)buildVersion;
 
 @end

@@ -67,6 +67,10 @@
 #import "JSBHttpResponseResult.h"
 #import "JSBHttpActionBase.h"
 
+//device/app info
+#import "JSBDeviceInfo.h"
+#import "JSBProjectInfo.h"
+
 
 #pragma mark- object class
 /**

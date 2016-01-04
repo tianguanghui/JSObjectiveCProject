@@ -31,7 +31,6 @@
 + (BOOL)isIPhone;
 + (BOOL)isIPad;
 
-
 #pragma mark - 系统版本
 
 #define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
