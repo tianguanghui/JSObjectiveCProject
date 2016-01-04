@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-
+/**
+ *  获取当前项目信息
+ * 
+ * 
+ *  
+ */
 @interface JSBProjectInfo : NSObject
 
 @end

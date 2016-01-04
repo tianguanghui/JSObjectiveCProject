@@ -16,7 +16,10 @@
 /**
  *  Category文件
  */
-
+#import "UIColor+JS.h"
+#import "UIDevice+HardwareName.h"
+#import "UIImage+Clip.h"
+#import "NSString+Random.h"
 
 #pragma mark- 3rd party header
 /**
@@ -50,7 +53,6 @@
  */
 
 #pragma mark- custom macro
-
 /**
  *  自定义的宏文件
  */
@@ -64,6 +66,7 @@
 #import "JSBHttpActionManager.h"
 #import "JSBHttpResponseResult.h"
 #import "JSBHttpActionBase.h"
+
 
 #pragma mark- object class
 /**

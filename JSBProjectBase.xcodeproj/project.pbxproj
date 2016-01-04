@@ -35,6 +35,9 @@
 		FE19F9AC1C39E69B009986FE /* JSBDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9AB1C39E69B009986FE /* JSBDeviceInfo.m */; };
 		FE19F9AF1C39E6A7009986FE /* JSBProjectInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9AE1C39E6A7009986FE /* JSBProjectInfo.m */; };
 		FE19F9B21C3B09C6009986FE /* UIDevice+HardwareName.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9B11C3B09C6009986FE /* UIDevice+HardwareName.m */; };
+		FE19F9B51C3B0B9F009986FE /* UIColor+JSBProject.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9B41C3B0B9F009986FE /* UIColor+JSBProject.m */; };
+		FE19F9B81C3B0BB0009986FE /* UIFont+JSBProject.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9B71C3B0BB0009986FE /* UIFont+JSBProject.m */; };
+		FE19F9BB1C3B0E80009986FE /* UIColor+JS.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9BA1C3B0E80009986FE /* UIColor+JS.m */; };
 		FE2ABBE81BAEBAA4005CA114 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2ABBE51BAEBAA4005CA114 /* main.m */; };
 		FE2ABBE91BAEBAA4005CA114 /* thirdPartyLink.txt in Resources */ = {isa = PBXBuildFile; fileRef = FE2ABBE61BAEBAA4005CA114 /* thirdPartyLink.txt */; };
 		FE2ABBF01BAEBEBB005CA114 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE2ABBEE1BAEBEBB005CA114 /* Info.plist */; };
@@ -116,6 +119,12 @@
 		FE19F9AE1C39E6A7009986FE /* JSBProjectInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBProjectInfo.m; sourceTree = "<group>"; };
 		FE19F9B01C3B09C6009986FE /* UIDevice+HardwareName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+HardwareName.h"; sourceTree = "<group>"; };
 		FE19F9B11C3B09C6009986FE /* UIDevice+HardwareName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+HardwareName.m"; sourceTree = "<group>"; };
+		FE19F9B31C3B0B9F009986FE /* UIColor+JSBProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JSBProject.h"; sourceTree = "<group>"; };
+		FE19F9B41C3B0B9F009986FE /* UIColor+JSBProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JSBProject.m"; sourceTree = "<group>"; };
+		FE19F9B61C3B0BB0009986FE /* UIFont+JSBProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+JSBProject.h"; sourceTree = "<group>"; };
+		FE19F9B71C3B0BB0009986FE /* UIFont+JSBProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+JSBProject.m"; sourceTree = "<group>"; };
+		FE19F9B91C3B0E80009986FE /* UIColor+JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JS.h"; sourceTree = "<group>"; };
+		FE19F9BA1C3B0E80009986FE /* UIColor+JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JS.m"; sourceTree = "<group>"; };
 		FE2ABBE51BAEBAA4005CA114 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FE2ABBE61BAEBAA4005CA114 /* thirdPartyLink.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = thirdPartyLink.txt; sourceTree = "<group>"; };
 		FE2ABBED1BAEBC8B005CA114 /* ImportFiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImportFiles.h; sourceTree = "<group>"; };
@@ -288,6 +297,10 @@
 			children = (
 				FE19F9991C39CF4D009986FE /* FontUsage.h */,
 				FE19F99A1C39CF4D009986FE /* FontUsage.m */,
+				FE19F9B31C3B0B9F009986FE /* UIColor+JSBProject.h */,
+				FE19F9B41C3B0B9F009986FE /* UIColor+JSBProject.m */,
+				FE19F9B61C3B0BB0009986FE /* UIFont+JSBProject.h */,
+				FE19F9B71C3B0BB0009986FE /* UIFont+JSBProject.m */,
 			);
 			path = Theme;
 			sourceTree = "<group>";
@@ -393,6 +406,8 @@
 		FEB1B4D51C36B4DE003536C1 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				FE19F9B91C3B0E80009986FE /* UIColor+JS.h */,
+				FE19F9BA1C3B0E80009986FE /* UIColor+JS.m */,
 				FE19F9B01C3B09C6009986FE /* UIDevice+HardwareName.h */,
 				FE19F9B11C3B09C6009986FE /* UIDevice+HardwareName.m */,
 				FE19F95A1C3954CE009986FE /* UIImage+Clip.h */,
@@ -728,6 +743,7 @@
 				FE2ABBE81BAEBAA4005CA114 /* main.m in Sources */,
 				FE19F99B1C39CF4D009986FE /* FontUsage.m in Sources */,
 				FE19F9771C395D42009986FE /* ObjBase.m in Sources */,
+				FE19F9B81C3B0BB0009986FE /* UIFont+JSBProject.m in Sources */,
 				FE19F94D1C394696009986FE /* FunNameApi.m in Sources */,
 				FEB1B50E1C376360003536C1 /* ObjStudent.m in Sources */,
 				FEB1B5121C3763BB003536C1 /* ObjUser.m in Sources */,
@@ -735,8 +751,10 @@
 				FE19F94E1C394696009986FE /* GetImageApi.m in Sources */,
 				FE5F2D0E1BAEE9060067A64E /* JSBUserDefaults.m in Sources */,
 				FE19F9941C39CF1D009986FE /* GetUserInfoWithIDAction.m in Sources */,
+				FE19F9BB1C3B0E80009986FE /* UIColor+JS.m in Sources */,
 				FE19F9971C39CF1D009986FE /* TestHttpAction.m in Sources */,
 				FE5F2D081BAEE4E10067A64E /* JSBitMask.m in Sources */,
+				FE19F9B51C3B0B9F009986FE /* UIColor+JSBProject.m in Sources */,
 				FE19F9AF1C39E6A7009986FE /* JSBProjectInfo.m in Sources */,
 				FE19F94F1C394696009986FE /* ProGuide.md in Sources */,
 				FE19F94C1C394696009986FE /* BasicGuide.md in Sources */,
