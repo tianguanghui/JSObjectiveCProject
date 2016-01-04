@@ -31,6 +31,10 @@
 		FE19F99B1C39CF4D009986FE /* FontUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F99A1C39CF4D009986FE /* FontUsage.m */; };
 		FE19F99F1C39D393009986FE /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F99E1C39D393009986FE /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		FE19F9A21C39D3BD009986FE /* KeychainUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9A11C39D3BD009986FE /* KeychainUsage.m */; };
+		FE19F9A61C39E551009986FE /* JSBNotificationName.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9A51C39E551009986FE /* JSBNotificationName.m */; };
+		FE19F9AC1C39E69B009986FE /* JSBDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9AB1C39E69B009986FE /* JSBDeviceInfo.m */; };
+		FE19F9AF1C39E6A7009986FE /* JSBProjectInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9AE1C39E6A7009986FE /* JSBProjectInfo.m */; };
+		FE19F9B21C3B09C6009986FE /* UIDevice+HardwareName.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9B11C3B09C6009986FE /* UIDevice+HardwareName.m */; };
 		FE2ABBE81BAEBAA4005CA114 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2ABBE51BAEBAA4005CA114 /* main.m */; };
 		FE2ABBE91BAEBAA4005CA114 /* thirdPartyLink.txt in Resources */ = {isa = PBXBuildFile; fileRef = FE2ABBE61BAEBAA4005CA114 /* thirdPartyLink.txt */; };
 		FE2ABBF01BAEBEBB005CA114 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE2ABBEE1BAEBEBB005CA114 /* Info.plist */; };
@@ -104,6 +108,14 @@
 		FE19F99E1C39D393009986FE /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
 		FE19F9A01C39D3BD009986FE /* KeychainUsage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainUsage.h; sourceTree = "<group>"; };
 		FE19F9A11C39D3BD009986FE /* KeychainUsage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainUsage.m; sourceTree = "<group>"; };
+		FE19F9A41C39E551009986FE /* JSBNotificationName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBNotificationName.h; sourceTree = "<group>"; };
+		FE19F9A51C39E551009986FE /* JSBNotificationName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBNotificationName.m; sourceTree = "<group>"; };
+		FE19F9AA1C39E69B009986FE /* JSBDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBDeviceInfo.h; sourceTree = "<group>"; };
+		FE19F9AB1C39E69B009986FE /* JSBDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBDeviceInfo.m; sourceTree = "<group>"; };
+		FE19F9AD1C39E6A7009986FE /* JSBProjectInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBProjectInfo.h; sourceTree = "<group>"; };
+		FE19F9AE1C39E6A7009986FE /* JSBProjectInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBProjectInfo.m; sourceTree = "<group>"; };
+		FE19F9B01C3B09C6009986FE /* UIDevice+HardwareName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+HardwareName.h"; sourceTree = "<group>"; };
+		FE19F9B11C3B09C6009986FE /* UIDevice+HardwareName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+HardwareName.m"; sourceTree = "<group>"; };
 		FE2ABBE51BAEBAA4005CA114 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FE2ABBE61BAEBAA4005CA114 /* thirdPartyLink.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = thirdPartyLink.txt; sourceTree = "<group>"; };
 		FE2ABBED1BAEBC8B005CA114 /* ImportFiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImportFiles.h; sourceTree = "<group>"; };
@@ -251,6 +263,15 @@
 			path = Safety;
 			sourceTree = "<group>";
 		};
+		FE19F9A31C39E53F009986FE /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				FE19F9A41C39E551009986FE /* JSBNotificationName.h */,
+				FE19F9A51C39E551009986FE /* JSBNotificationName.m */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
 		FE2ABBE21BAEBAA4005CA114 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -279,6 +300,10 @@
 				FE5F2D071BAEE4E10067A64E /* JSBitMask.m */,
 				FE5F2D0C1BAEE9060067A64E /* JSBUserDefaults.h */,
 				FE5F2D0D1BAEE9060067A64E /* JSBUserDefaults.m */,
+				FE19F9AA1C39E69B009986FE /* JSBDeviceInfo.h */,
+				FE19F9AB1C39E69B009986FE /* JSBDeviceInfo.m */,
+				FE19F9AD1C39E6A7009986FE /* JSBProjectInfo.h */,
+				FE19F9AE1C39E6A7009986FE /* JSBProjectInfo.m */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -356,8 +381,8 @@
 		FE927F751BAE537B00233E96 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				FE19F9A31C39E53F009986FE /* Const */,
 				FE19F99C1C39D382009986FE /* Safety */,
-				FEB1B4D61C36B4EA003536C1 /* Macros */,
 				FEB1B4D51C36B4DE003536C1 /* Categories */,
 				FE2ABBEB1BAEBC5C005CA114 /* Theme */,
 				FE2ABBEC1BAEBC5C005CA114 /* Utility */,
@@ -368,19 +393,14 @@
 		FEB1B4D51C36B4DE003536C1 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				FE19F9B01C3B09C6009986FE /* UIDevice+HardwareName.h */,
+				FE19F9B11C3B09C6009986FE /* UIDevice+HardwareName.m */,
 				FE19F95A1C3954CE009986FE /* UIImage+Clip.h */,
 				FE19F95B1C3954CE009986FE /* UIImage+Clip.m */,
 				FE19F95D1C395508009986FE /* NSString+Random.h */,
 				FE19F95E1C395508009986FE /* NSString+Random.m */,
 			);
 			path = Categories;
-			sourceTree = "<group>";
-		};
-		FEB1B4D61C36B4EA003536C1 /* Macros */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Macros;
 			sourceTree = "<group>";
 		};
 		FEB1B4D71C36B503003536C1 /* ThridPatry */ = {
@@ -717,6 +737,7 @@
 				FE19F9941C39CF1D009986FE /* GetUserInfoWithIDAction.m in Sources */,
 				FE19F9971C39CF1D009986FE /* TestHttpAction.m in Sources */,
 				FE5F2D081BAEE4E10067A64E /* JSBitMask.m in Sources */,
+				FE19F9AF1C39E6A7009986FE /* JSBProjectInfo.m in Sources */,
 				FE19F94F1C394696009986FE /* ProGuide.md in Sources */,
 				FE19F94C1C394696009986FE /* BasicGuide.md in Sources */,
 				FE19F9791C395D42009986FE /* ObjList.m in Sources */,
@@ -727,8 +748,11 @@
 				FE19F95F1C395508009986FE /* NSString+Random.m in Sources */,
 				FE19F99F1C39D393009986FE /* KeychainItemWrapper.m in Sources */,
 				FE19F9951C39CF1D009986FE /* SignOutAction.m in Sources */,
+				FE19F9B21C3B09C6009986FE /* UIDevice+HardwareName.m in Sources */,
+				FE19F9A61C39E551009986FE /* JSBNotificationName.m in Sources */,
 				FE19F9501C394696009986FE /* UploadImageApi.m in Sources */,
 				FEB1B5151C3768C6003536C1 /* ObjUserPhone.m in Sources */,
+				FE19F9AC1C39E69B009986FE /* JSBDeviceInfo.m in Sources */,
 				FE19F9981C39CF1D009986FE /* ValidationAction.m in Sources */,
 				FE19F95C1C3954CE009986FE /* UIImage+Clip.m in Sources */,
 				FEB1B50D1C376360003536C1 /* ObjBook.m in Sources */,
