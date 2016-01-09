@@ -43,6 +43,7 @@
 		FE2ABBF01BAEBEBB005CA114 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE2ABBEE1BAEBEBB005CA114 /* Info.plist */; };
 		FE5F2D081BAEE4E10067A64E /* JSBitMask.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5F2D071BAEE4E10067A64E /* JSBitMask.m */; };
 		FE5F2D0E1BAEE9060067A64E /* JSBUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5F2D0D1BAEE9060067A64E /* JSBUserDefaults.m */; };
+		FE8633131C40D6D200F423CF /* UIPickerViewUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8633121C40D6D200F423CF /* UIPickerViewUsage.m */; };
 		FE927F401BAE41BC00233E96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE927F3F1BAE41BC00233E96 /* AppDelegate.m */; };
 		FE927F461BAE41BC00233E96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE927F441BAE41BC00233E96 /* Main.storyboard */; };
 		FE927F481BAE41BD00233E96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE927F471BAE41BD00233E96 /* Assets.xcassets */; };
@@ -134,6 +135,8 @@
 		FE5F2D071BAEE4E10067A64E /* JSBitMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBitMask.m; sourceTree = "<group>"; };
 		FE5F2D0C1BAEE9060067A64E /* JSBUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBUserDefaults.h; sourceTree = "<group>"; };
 		FE5F2D0D1BAEE9060067A64E /* JSBUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBUserDefaults.m; sourceTree = "<group>"; };
+		FE8633111C40D6D200F423CF /* UIPickerViewUsage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPickerViewUsage.h; sourceTree = "<group>"; };
+		FE8633121C40D6D200F423CF /* UIPickerViewUsage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPickerViewUsage.m; sourceTree = "<group>"; };
 		FE927F381BAE41BC00233E96 /* JSBProjectBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSBProjectBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE927F3E1BAE41BC00233E96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FE927F3F1BAE41BC00233E96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -321,6 +324,15 @@
 			path = Utility;
 			sourceTree = "<group>";
 		};
+		FE8633101C40D6B700F423CF /* UIKitUseage */ = {
+			isa = PBXGroup;
+			children = (
+				FE8633111C40D6D200F423CF /* UIPickerViewUsage.h */,
+				FE8633121C40D6D200F423CF /* UIPickerViewUsage.m */,
+			);
+			path = UIKitUseage;
+			sourceTree = "<group>";
+		};
 		FE927F2F1BAE41BC00233E96 = {
 			isa = PBXGroup;
 			children = (
@@ -344,6 +356,7 @@
 		FE927F3A1BAE41BC00233E96 /* JSBProjectBase */ = {
 			isa = PBXGroup;
 			children = (
+				FE8633101C40D6B700F423CF /* UIKitUseage */,
 				FEB1B4EE1C36B55C003536C1 /* SDKUsage */,
 				FEB1B4DC1C36B525003536C1 /* Model */,
 				FEB1B4D71C36B503003536C1 /* ThridPatry */,
@@ -757,6 +770,7 @@
 				FE19F9B51C3B0B9F009986FE /* UIColor+JSBProject.m in Sources */,
 				FE19F9AF1C39E6A7009986FE /* JSBProjectInfo.m in Sources */,
 				FE19F94F1C394696009986FE /* ProGuide.md in Sources */,
+				FE8633131C40D6D200F423CF /* UIPickerViewUsage.m in Sources */,
 				FE19F94C1C394696009986FE /* BasicGuide.md in Sources */,
 				FE19F9791C395D42009986FE /* ObjList.m in Sources */,
 				FE19F9961C39CF1D009986FE /* SignUpAction.m in Sources */,

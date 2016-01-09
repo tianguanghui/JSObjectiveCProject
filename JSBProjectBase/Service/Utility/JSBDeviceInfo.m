@@ -48,7 +48,21 @@
     return [[[UIDevice currentDevice] systemVersion] compare:iOSVersion options:NSNumericSearch] != NSOrderedDescending;
 }
 
++ (BOOL)isLessIOS7 {
+    return ([JSBDeviceInfo isCurrentIOSVersionLessThanVersion:@"7.0"]);
+}
 
++ (BOOL)isIOS7 {
+    return ([JSBDeviceInfo isCurrentIOSVersionLessThanVersion:@"8.0"])&&([JSBDeviceInfo isCurrentIOSVersionGreaterThanOrEqualToVersion:@"7.0"]);
+}
+
++ (BOOL)isIOS8 {
+    return ([JSBDeviceInfo isCurrentIOSVersionLessThanVersion:@"9.0"])&&([JSBDeviceInfo isCurrentIOSVersionGreaterThanOrEqualToVersion:@"8.0"]);
+}
+
++ (BOOL)isIOS9 {
+    return ([JSBDeviceInfo isCurrentIOSVersionLessThanVersion:@"10.0"])&&([JSBDeviceInfo isCurrentIOSVersionGreaterThanOrEqualToVersion:@"9.0"]);
+}
 
 #pragma mark - 设备屏幕
 

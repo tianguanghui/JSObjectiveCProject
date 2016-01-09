@@ -28,6 +28,9 @@
 
 #pragma mark - 什么设备
 
+#define   iPhoneDevice          ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad )
+#define   iPadDevice            ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone )
+
 + (BOOL)isIPhone;
 + (BOOL)isIPad;
 
@@ -46,12 +49,25 @@
 + (BOOL)isCurrentIOSVersionLessThanVersion:(NSString *)iOSVersion;
 + (BOOL)isCurrentIOSVersionLessThanOrEqualToVersion:(NSString *)iOSVersion;
 
+#define   lessIOS7          ( SYSTEM_VERSION_LESS_THAN(7.0) )
+#define   IOS7              ( SYSTEM_VERSION_LESS_THAN(8.0) && SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(7.0) )
+#define   IOS8              ( SYSTEM_VERSION_LESS_THAN(9.0) && SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(8.0) )
+#define   IOS9              ( SYSTEM_VERSION_LESS_THAN(10.0) && SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(9.0) )
+
 + (BOOL)isLessIOS7;
 + (BOOL)isIOS7;
 + (BOOL)isIOS8;
 + (BOOL)isIOS9;
 
 #pragma mark - 设备屏幕
+
+#define   iPhone4       ([JSBDeviceInfo screenHeight] < 568.0f)
+#define   iPhone5       ([JSBDeviceInfo screenHeight] == 568.0f)
+#define   iPhone6       ([JSBDeviceInfo screenHeight] == 667.0f)
+#define   iPhone6P      ([JSBDeviceInfo screenHeight] == 736.0f)
+
+#define   landscape         ( UIDeviceOrientationIsLandscape([UIDevice currentDevice].orientation) )
+#define   portrait          ( UIDeviceOrientationIsPortrait([UIDevice currentDevice].orientation) )
 
 + (BOOL)isIPhone4;
 + (BOOL)isIPhone5;
@@ -60,6 +76,14 @@
 
 + (BOOL)isLandscape;
 + (BOOL)isPortrait;
+
+#define     SWidth  ([[UIScreen mainScreen]bounds].size.width)
+#define     SHeight  ([[UIScreen mainScreen]bounds].size.height)
+#define     SResolution  ([[UIScreen mainScreen]scale])
+
+#define     SNaviteWidth  ([[UIScreen mainScreen]nativeBounds].size.width)
+#define     SNaviteHeight  ([[UIScreen mainScreen]nativeBounds].size.height)
+#define     SNaviteResolution  ([[UIScreen mainScreen]nativeScale])
 
 + (CGFloat)screenWidth;
 
