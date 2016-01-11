@@ -44,7 +44,8 @@
 #import <YTKRequest.h>
 #import <FMDB.h>
 
-
+#import "JSQMessages.h"
+#import "JSQSystemSoundPlayer.h"
 
 
 #pragma mark- custom view

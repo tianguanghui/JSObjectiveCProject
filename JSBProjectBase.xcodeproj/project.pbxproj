@@ -53,6 +53,9 @@
 		FE0AC58A1C438AB100EC0378 /* JSQMessagesToolbarContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE0AC55D1C438AB100EC0378 /* JSQMessagesToolbarContentView.xib */; };
 		FE0AC58B1C438AB100EC0378 /* JSQMessagesTypingIndicatorFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0AC55F1C438AB100EC0378 /* JSQMessagesTypingIndicatorFooterView.m */; };
 		FE0AC58C1C438AB100EC0378 /* JSQMessagesTypingIndicatorFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE0AC5601C438AB100EC0378 /* JSQMessagesTypingIndicatorFooterView.xib */; };
+		FE0AC5BA1C4396D600EC0378 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = FE0AC5B81C4396D600EC0378 /* LICENSE */; };
+		FE0AC5BB1C4396D600EC0378 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = FE0AC5B91C4396D600EC0378 /* README.md */; };
+		FE0AC5BF1C4396E300EC0378 /* JSQSystemSoundPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0AC5BE1C4396E300EC0378 /* JSQSystemSoundPlayer.m */; };
 		FE19F94C1C394696009986FE /* BasicGuide.md in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9441C394696009986FE /* BasicGuide.md */; };
 		FE19F94D1C394696009986FE /* FunNameApi.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9461C394696009986FE /* FunNameApi.m */; };
 		FE19F94E1C394696009986FE /* GetImageApi.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9481C394696009986FE /* GetImageApi.m */; };
@@ -206,6 +209,10 @@
 		FE0AC55E1C438AB100EC0378 /* JSQMessagesTypingIndicatorFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSQMessagesTypingIndicatorFooterView.h; sourceTree = "<group>"; };
 		FE0AC55F1C438AB100EC0378 /* JSQMessagesTypingIndicatorFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSQMessagesTypingIndicatorFooterView.m; sourceTree = "<group>"; };
 		FE0AC5601C438AB100EC0378 /* JSQMessagesTypingIndicatorFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSQMessagesTypingIndicatorFooterView.xib; sourceTree = "<group>"; };
+		FE0AC5B81C4396D600EC0378 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FE0AC5B91C4396D600EC0378 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FE0AC5BD1C4396E300EC0378 /* JSQSystemSoundPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSQSystemSoundPlayer.h; sourceTree = "<group>"; };
+		FE0AC5BE1C4396E300EC0378 /* JSQSystemSoundPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSQSystemSoundPlayer.m; sourceTree = "<group>"; };
 		FE19F9441C394696009986FE /* BasicGuide.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = BasicGuide.md; sourceTree = "<group>"; };
 		FE19F9451C394696009986FE /* FunNameApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunNameApi.h; sourceTree = "<group>"; };
 		FE19F9461C394696009986FE /* FunNameApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunNameApi.m; sourceTree = "<group>"; };
@@ -429,6 +436,7 @@
 		FE0AC4FE1C438A8000EC0378 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				FE0AC58D1C4394E500EC0378 /* JSQSystemSoundPlayer */,
 				FE0AC5001C438AB100EC0378 /* JSQMessagesViewController */,
 			);
 			path = ThirdParty;
@@ -591,6 +599,25 @@
 				FE0AC5601C438AB100EC0378 /* JSQMessagesTypingIndicatorFooterView.xib */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		FE0AC58D1C4394E500EC0378 /* JSQSystemSoundPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				FE0AC5BC1C4396E300EC0378 /* Classes */,
+				FE0AC5B81C4396D600EC0378 /* LICENSE */,
+				FE0AC5B91C4396D600EC0378 /* README.md */,
+			);
+			path = JSQSystemSoundPlayer;
+			sourceTree = "<group>";
+		};
+		FE0AC5BC1C4396E300EC0378 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FE0AC5BD1C4396E300EC0378 /* JSQSystemSoundPlayer.h */,
+				FE0AC5BE1C4396E300EC0378 /* JSQSystemSoundPlayer.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		FE19F9431C394696009986FE /* YTKUsage */ = {
@@ -977,6 +1004,7 @@
 				FE927F481BAE41BD00233E96 /* Assets.xcassets in Resources */,
 				FE19F97E1C39CEBC009986FE /* Omnes_Medium.ttf in Resources */,
 				FE2ABBE91BAEBAA4005CA114 /* thirdPartyLink.txt in Resources */,
+				FE0AC5BA1C4396D600EC0378 /* LICENSE in Resources */,
 				FEB1B5011C3753F6003536C1 /* Localizable.strings in Resources */,
 				FE19F97D1C39CEBC009986FE /* Omnes_Light.ttf in Resources */,
 				FEB1B4FD1C375378003536C1 /* citydata.plist in Resources */,
@@ -1111,6 +1139,7 @@
 				FE19F9B21C3B09C6009986FE /* UIDevice+HardwareName.m in Sources */,
 				FE19F9A61C39E551009986FE /* JSBNotificationName.m in Sources */,
 				FE19F9501C394696009986FE /* UploadImageApi.m in Sources */,
+				FE0AC5BF1C4396E300EC0378 /* JSQSystemSoundPlayer.m in Sources */,
 				FE0AC5771C438AB100EC0378 /* JSQMessage.m in Sources */,
 				FE0AC56D1C438AB100EC0378 /* JSQMessagesBubbleImageFactory.m in Sources */,
 				FEB1B5151C3768C6003536C1 /* ObjUserPhone.m in Sources */,
@@ -1120,6 +1149,7 @@
 				FE0AC5691C438AB100EC0378 /* JSQMessagesKeyboardController.m in Sources */,
 				FE0AC57F1C438AB100EC0378 /* JSQMessagesCollectionViewCellIncoming.m in Sources */,
 				FE19F9981C39CF1D009986FE /* ValidationAction.m in Sources */,
+				FE0AC5BB1C4396D600EC0378 /* README.md in Sources */,
 				FE0AC57D1C438AB100EC0378 /* JSQMessagesCollectionView.m in Sources */,
 				FE19F95C1C3954CE009986FE /* UIImage+Clip.m in Sources */,
 				FE0AC5891C438AB100EC0378 /* JSQMessagesToolbarContentView.m in Sources */,

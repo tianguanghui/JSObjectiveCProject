@@ -15,7 +15,6 @@
 //  Copyright (c) 2014 Jesse Squires
 //  Released under an MIT license: http://opensource.org/licenses/MIT
 //
-
 #import "JSQSystemSoundPlayer+JSQMessages.h"
 
 #import "NSBundle+JSQMessages.h"
