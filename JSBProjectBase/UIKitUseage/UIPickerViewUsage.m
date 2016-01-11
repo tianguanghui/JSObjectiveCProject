@@ -77,8 +77,10 @@ static CGFloat pickerViewH = 200;
 {
     NSDictionary *dic = self.priceArr[row];
     CGFloat price = [[[dic allValues]firstObject] floatValue];
-    [self pvu_updatePriceLabelWith:price];
     self.pricePickerView.hidden = YES;
+    
+    [self pvu_updatePriceLabelWith:price];
+
 }
 
 @end

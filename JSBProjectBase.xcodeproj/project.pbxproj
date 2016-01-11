@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2787391A43C2B5C6D4F6CFE3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF5C92BCB1799B60751ECA8 /* libPods.a */; };
+		FE0AC3D71C4384A500EC0378 /* UIActivityIndicatorViewUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0AC3D61C4384A500EC0378 /* UIActivityIndicatorViewUsage.m */; };
 		FE19F94C1C394696009986FE /* BasicGuide.md in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9441C394696009986FE /* BasicGuide.md */; };
 		FE19F94D1C394696009986FE /* FunNameApi.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9461C394696009986FE /* FunNameApi.m */; };
 		FE19F94E1C394696009986FE /* GetImageApi.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9481C394696009986FE /* GetImageApi.m */; };
@@ -70,6 +71,8 @@
 /* Begin PBXFileReference section */
 		4521D41A0D2CB85E7DB2A7DB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		476334E3194AC39784D798F5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FE0AC3D51C4384A500EC0378 /* UIActivityIndicatorViewUsage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIActivityIndicatorViewUsage.h; sourceTree = "<group>"; };
+		FE0AC3D61C4384A500EC0378 /* UIActivityIndicatorViewUsage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIActivityIndicatorViewUsage.m; sourceTree = "<group>"; };
 		FE19F9441C394696009986FE /* BasicGuide.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = BasicGuide.md; sourceTree = "<group>"; };
 		FE19F9451C394696009986FE /* FunNameApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunNameApi.h; sourceTree = "<group>"; };
 		FE19F9461C394696009986FE /* FunNameApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunNameApi.m; sourceTree = "<group>"; };
@@ -329,6 +332,8 @@
 			children = (
 				FE8633111C40D6D200F423CF /* UIPickerViewUsage.h */,
 				FE8633121C40D6D200F423CF /* UIPickerViewUsage.m */,
+				FE0AC3D51C4384A500EC0378 /* UIActivityIndicatorViewUsage.h */,
+				FE0AC3D61C4384A500EC0378 /* UIActivityIndicatorViewUsage.m */,
 			);
 			path = UIKitUseage;
 			sourceTree = "<group>";
@@ -777,6 +782,7 @@
 				FE927F401BAE41BC00233E96 /* AppDelegate.m in Sources */,
 				FE19F9781C395D42009986FE /* ObjJSON.m in Sources */,
 				FE19F9921C39CF1D009986FE /* JSBHttpActionManager.m in Sources */,
+				FE0AC3D71C4384A500EC0378 /* UIActivityIndicatorViewUsage.m in Sources */,
 				FE19F95F1C395508009986FE /* NSString+Random.m in Sources */,
 				FE19F99F1C39D393009986FE /* KeychainItemWrapper.m in Sources */,
 				FE19F9951C39CF1D009986FE /* SignOutAction.m in Sources */,
