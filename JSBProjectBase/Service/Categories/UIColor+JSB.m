@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 JungleSong. All rights reserved.
 //
 
-#import "UIColor+JS.h"
+#import "UIColor+JSB.h"
 
 CGFloat colorComponentFrom(NSString *string, NSUInteger start, NSUInteger length) {
     NSString *substring = [string substringWithRange:NSMakeRange(start, length)];
@@ -17,7 +17,7 @@ CGFloat colorComponentFrom(NSString *string, NSUInteger start, NSUInteger length
     return hexComponent / 255.0;
 }
 
-@implementation UIColor(JS)
+@implementation UIColor(JSB)
 
 #pragma mark- 十六进制颜色
 

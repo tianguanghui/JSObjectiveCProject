@@ -1,5 +1,5 @@
 //
-//  UIColor+JS.h
+//  UIColor+JSB.h
 //  timeboy
 //
 //  Created by wenghengcong on 15/5/9.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIColor(JS)
+@interface UIColor(JSB)
 
 #pragma mark- 十六进制颜色
 /**

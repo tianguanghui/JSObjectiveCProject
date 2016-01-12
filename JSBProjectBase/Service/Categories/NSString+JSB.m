@@ -6,9 +6,9 @@
 //  Copyright © 2016年 JungleSong. All rights reserved.
 //
 
-#import "NSString+Random.h"
+#import "NSString+JSB.h"
 
-@implementation NSString (Random)
+@implementation NSString (JSB)
 
 NSString *letters = @"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImage (Clip)
+@interface UIImage (JSB)
 
 + (UIImage *)reduce:(UIImage *)image withMaxSize:(CGSize) maxSize;
 

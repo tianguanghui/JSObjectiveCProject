@@ -6,9 +6,9 @@
 //  Copyright © 2016年 JungleSong. All rights reserved.
 //
 
-#import "UIImage+Clip.h"
+#import "UIImage+JSB.h"
 
-@implementation UIImage (Clip)
+@implementation UIImage (JSB)
 
 + (UIImage *)reduce:(UIImage *)image withMaxSize:(CGSize) maxSize
 {

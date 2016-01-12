@@ -1,8 +1,10 @@
-/*
- Erica Sadun, http://ericasadun.com
- iPhone Developer's Cookbook, 6.x Edition
- BSD License, Use at your own risk
- */
+//
+//  UIDevice+JSB.h
+//  JSBProjectBase
+//
+//  Created by WengHengcong on 16/1/12.
+//  Copyright © 2016年 JungleSong. All rights reserved.
+//
 
 #import <UIKit/UIKit.h>
 
@@ -10,8 +12,8 @@
 
 #define IPHONE_1G_NAMESTRING            @"iPhone 1"
 #define IPHONE_3G_NAMESTRING            @"iPhone 3G"
-#define IPHONE_3GS_NAMESTRING           @"iPhone 3GS" 
-#define IPHONE_4_NAMESTRING             @"iPhone 4" 
+#define IPHONE_3GS_NAMESTRING           @"iPhone 3GS"
+#define IPHONE_4_NAMESTRING             @"iPhone 4"
 #define IPHONE_4S_NAMESTRING            @"iPhone 4S"
 #define IPHONE_5_NAMESTRING             @"iPhone 5"
 #define IPHONE_5C_NAMESTRING            @"iPhone 5c"
@@ -71,9 +73,9 @@ typedef enum {
     UIDevice5SiPhone,
     UIDevice6iPhone,
     UIDevice6PlusiPhone,
-	UIDevice6siPhone,
-	UIDevice6sPlusiPhone,
-
+    UIDevice6siPhone,
+    UIDevice6sPlusiPhone,
+    
     UIDevice1GiPod,
     UIDevice2GiPod,
     UIDevice3GiPod,
@@ -85,7 +87,7 @@ typedef enum {
     UIDevice3GiPad,
     UIDeviceAiriPad,
     UIDeviceAir2iPad,
-
+    
     UIDevice1GiPadMini,
     UIDevice2GiPadMini,
     UIDevice3GiPadMini,
@@ -100,7 +102,7 @@ typedef enum {
     UIDeviceUnknowniPadMini,
     UIDeviceUnknownAppleTV,
     UIDeviceIFPGA,
-
+    
 } UIDevicePlatform;
 
 typedef enum {
@@ -113,7 +115,9 @@ typedef enum {
     
 } UIDeviceFamily;
 
-@interface UIDevice (Hardware)
+
+@interface UIDevice (JSB)
+
 - (NSString *) platform;
 - (NSString *) hwmodel;
 - (NSUInteger) platformType;
@@ -136,4 +140,5 @@ typedef enum {
 - (NSString *) platform2string: (NSString *)platform;
 - (NSUInteger) platform2type: (NSString *)platform;
 - (NSString *) type2string:(NSUInteger)type;
+
 @end

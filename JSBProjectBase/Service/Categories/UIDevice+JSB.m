@@ -1,24 +1,25 @@
-/*
- Erica Sadun, http://ericasadun.com
- iPhone Developer's Cookbook, 6.x Edition
- BSD License, Use at your own risk
- */
-
-// Thanks to Emanuele Vulcano, Kevin Ballard/Eridius, Ryandjohnson, Matt Brown, etc.
+//
+//  UIDevice+JSB.m
+//  JSBProjectBase
+//
+//  Created by WengHengcong on 16/1/12.
+//  Copyright © 2016年 JungleSong. All rights reserved.
+//
 
 #include <sys/socket.h> // Per msqr
 #include <sys/sysctl.h>
 #include <net/if.h>
 #include <net/if_dl.h>
 
-#import "UIDevice+HardwareName.h"
+#import "UIDevice+JSB.h"
 
-@implementation UIDevice (Hardware)
+@implementation UIDevice (JSB)
+
 /*
  Platforms
  
  iFPGA ->        ??
-
+ 
  iPhone1,1 ->    iPhone 1G, M68
  iPhone1,2 ->    iPhone 3G, N82
  iPhone2,1 ->    iPhone 3GS, N88
@@ -38,7 +39,7 @@
  iPhone7,2 ->    iPhone 6
  iPhone8,1 ->    iPhone 6s
  iPhone8,2 ->    iPhone 6s Plus
-
+ 
  iPod1,1   ->    iPod touch 1G, N45
  iPod2,1   ->    iPod touch 2G, N72
  iPod2,2   ->    Unknown, ??
@@ -51,7 +52,7 @@
  iPad2,1   ->    iPad 2G, WiFi, K93
  iPad2,2   ->    iPad 2G, GSM 3G, K94
  iPad2,3   ->    iPad 2G, CDMA 3G, K95
- iPad2,4   ->    iPad 2G, 
+ iPad2,4   ->    iPad 2G,
  iPad3,1   ->    (iPad 3G, WiFi)
  iPad3,2   ->    (iPad 3G, GSM)
  iPad3,3   ->    (iPad 3G, CDMA)
@@ -63,23 +64,23 @@
  iPad4,3   ->    (iPad Air, CDMA)
  iPad5,3   ->    (iPad Air 2)
  iPad5,4   ->    (iPad Air 2)
-
- iPad2,5   ->    iPad Mini 1G, 
- iPad2,6   ->    iPad Mini 1G, 
- iPad2,7   ->    iPad Mini 1G, 
- iPad4,4   ->    iPad Mini 2G, 
- iPad4,5   ->    iPad Mini 2G, 
- iPad4,6   ->    iPad Mini 2G, 
- iPad4,7   ->    iPad Mini 3G, 
- iPad4,8   ->    iPad Mini 3G, 
- iPad4,9   ->    iPad Mini 3G, 
-
+ 
+ iPad2,5   ->    iPad Mini 1G,
+ iPad2,6   ->    iPad Mini 1G,
+ iPad2,7   ->    iPad Mini 1G,
+ iPad4,4   ->    iPad Mini 2G,
+ iPad4,5   ->    iPad Mini 2G,
+ iPad4,6   ->    iPad Mini 2G,
+ iPad4,7   ->    iPad Mini 3G,
+ iPad4,8   ->    iPad Mini 3G,
+ iPad4,9   ->    iPad Mini 3G,
+ 
  AppleTV2,1 ->   AppleTV 2, A1378
  AppleTV3,1 ->   AppleTV 3, A1427
  AppleTV3,2 ->   AppleTV 4, A1469
-
+ 
  i386, x86_64 -> iPhone Simulator
-*/
+ */
 
 
 #pragma mark sysctlbyname utils
@@ -92,7 +93,7 @@
     sysctlbyname(typeSpecifier, answer, &size, NULL, 0);
     
     NSString *results = [NSString stringWithCString:answer encoding: NSUTF8StringEncoding];
-
+    
     free(answer);
     return results;
 }
@@ -157,7 +158,7 @@
  extern NSString *NSFileSystemNodes;
  extern NSString *NSFileSystemFreeNodes;
  extern NSString *NSFileSystemNumber;
-*/
+ */
 
 - (NSNumber *) totalDiskSpace
 {
@@ -189,7 +190,7 @@
 {
     // The ever mysterious iFPGA
     if ([platform isEqualToString:@"iFPGA"])        return UIDeviceIFPGA;
-
+    
     // iPhone
     if ([platform isEqualToString:@"iPhone1,1"])    return UIDevice1GiPhone;
     if ([platform isEqualToString:@"iPhone1,2"])    return UIDevice3GiPhone;
@@ -208,9 +209,9 @@
     if ([platform isEqualToString:@"iPhone6,2"])    return UIDevice5SiPhone;
     if ([platform isEqualToString:@"iPhone7,1"])    return UIDevice6PlusiPhone;
     if ([platform isEqualToString:@"iPhone7,2"])    return UIDevice6iPhone;
-	if ([platform isEqualToString:@"iPhone8,1"])    return UIDevice6sPlusiPhone;
-	if ([platform isEqualToString:@"iPhone8,2"])    return UIDevice6siPhone;
-
+    if ([platform isEqualToString:@"iPhone8,1"])    return UIDevice6sPlusiPhone;
+    if ([platform isEqualToString:@"iPhone8,2"])    return UIDevice6siPhone;
+    
     if ([platform isEqualToString:@"iPod1,1"])    return UIDevice1GiPod;
     if ([platform isEqualToString:@"iPod2,1"])    return UIDevice2GiPod;
     if ([platform isEqualToString:@"iPod2,2"])    return UIDevice2GiPod;
@@ -249,7 +250,7 @@
     if ([platform isEqualToString:@"AppleTV2,1"])    return UIDeviceAppleTV2;
     if ([platform isEqualToString:@"AppleTV3,1"])    return UIDeviceAppleTV3;
     if ([platform isEqualToString:@"AppleTV3,2"])    return UIDeviceAppleTV4;
-
+    
     if ([platform hasPrefix:@"iPhone"])             return UIDeviceUnknowniPhone;
     if ([platform hasPrefix:@"iPod"])               return UIDeviceUnknowniPod;
     if ([platform hasPrefix:@"iPad"])               return UIDeviceUnknowniPad;
@@ -262,7 +263,7 @@
         BOOL smallerScreen = [[UIScreen mainScreen] bounds].size.width < 768;
         return smallerScreen ? UIDeviceSimulatoriPhone : UIDeviceSimulatoriPad;
     }
-
+    
     return UIDeviceUnknown;
 }
 
@@ -285,10 +286,10 @@
         case UIDevice5SiPhone: return IPHONE_5S_NAMESTRING;
         case UIDevice6iPhone: return IPHONE_6_NAMESTRING;
         case UIDevice6PlusiPhone: return IPHONE_6PLUS_NAMESTRING;
-		case UIDevice6siPhone: return IPHONE_6S_NAMESTRING;
-		case UIDevice6sPlusiPhone: return IPHONE_6SPLUS_NAMESTRING;
+        case UIDevice6siPhone: return IPHONE_6S_NAMESTRING;
+        case UIDevice6sPlusiPhone: return IPHONE_6SPLUS_NAMESTRING;
         case UIDeviceUnknowniPhone: return IPHONE_UNKNOWN_NAMESTRING;
-        
+            
         case UIDevice1GiPod: return IPOD_1G_NAMESTRING;
         case UIDevice2GiPod: return IPOD_2G_NAMESTRING;
         case UIDevice3GiPod: return IPOD_3G_NAMESTRING;
@@ -384,19 +385,21 @@
     sdl = (struct sockaddr_dl *)(ifm + 1);
     ptr = (unsigned char *)LLADDR(sdl);
     NSString *outstring = [NSString stringWithFormat:@"%02X:%02X:%02X:%02X:%02X:%02X", *ptr, *(ptr+1), *(ptr+2), *(ptr+3), *(ptr+4), *(ptr+5)];
-
+    
     free(buf);
     return outstring;
 }
 
 // Illicit Bluetooth check -- cannot be used in App Store
-/* 
-Class  btclass = NSClassFromString(@"GKBluetoothSupport");
-if ([btclass respondsToSelector:@selector(bluetoothStatus)])
-{
-    printf("BTStatus %d\n", ((int)[btclass performSelector:@selector(bluetoothStatus)] & 1) != 0);
-    bluetooth = ((int)[btclass performSelector:@selector(bluetoothStatus)] & 1) != 0;
-    printf("Bluetooth %s enabled\n", bluetooth ? "is" : "isn't");
-}
-*/
+/*
+ Class  btclass = NSClassFromString(@"GKBluetoothSupport");
+ if ([btclass respondsToSelector:@selector(bluetoothStatus)])
+ {
+ printf("BTStatus %d\n", ((int)[btclass performSelector:@selector(bluetoothStatus)] & 1) != 0);
+ bluetooth = ((int)[btclass performSelector:@selector(bluetoothStatus)] & 1) != 0;
+ printf("Bluetooth %s enabled\n", bluetooth ? "is" : "isn't");
+ }
+ */
+
+
 @end
