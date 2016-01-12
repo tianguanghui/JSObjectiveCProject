@@ -22,4 +22,14 @@ NSString *letters = @"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ012345
     return randomString;
 }
 
+
+/**
+ *  删减字符串内前后空格
+ */
+- (NSString *)stringByTrimmingWhiteSpace {
+    
+    NSCharacterSet *set = [NSCharacterSet whitespaceCharacterSet];
+    return [self stringByTrimmingCharactersInSet:set];
+}
+
 @end

@@ -16,10 +16,10 @@
 /**
  *  Category文件
  */
-#import "UIColor+JS.h"
-#import "UIDevice+HardwareName.h"
-#import "UIImage+Clip.h"
-#import "NSString+Random.h"
+#import "UIColor+JSB.h"
+#import "UIDevice+JSB.h"
+#import "UIImage+JSB.h"
+#import "NSString+JSB.h"
 
 #pragma mark- 3rd party header
 /**

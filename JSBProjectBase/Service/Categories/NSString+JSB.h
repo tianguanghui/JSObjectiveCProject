@@ -12,4 +12,9 @@
 
 +(NSString *) randomStringWithLength: (int) len;
 
+/**
+ *  删减字符串内前后空格
+ */
+- (NSString *)stringByTrimmingWhiteSpace;
+
 @end

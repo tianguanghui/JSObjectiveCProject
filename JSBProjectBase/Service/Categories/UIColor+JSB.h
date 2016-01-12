@@ -12,7 +12,7 @@
 
 #pragma mark- 十六进制颜色
 /**
- *  十六进制颜色
+ *  从十六进制字符串取出颜色
  */
 + (UIColor *)colorWithHexColorString:(NSString *)hexColorString;
 

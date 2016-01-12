@@ -37,45 +37,39 @@ CGFloat colorComponentFrom(NSString *string, NSUInteger start, NSUInteger length
 
 
 
-
+/**
+ *  从十六进制字符串取出颜色
+ */
 + (UIColor *)colorWithHexColorString:(NSString *)hexColorString {
     CGFloat   alpha  , red, blue, green;
 
-    NSString *colorString = [[hexColorString stringByReplacingOccurrencesOfString:@"#" withString:@""] uppercaseString];
-    switch ([colorString length]) {
-        case 3: // #RGB
-            alpha = 1.0f;
-            red   = colorComponentFrom(colorString, 0, 1);
-            green = colorComponentFrom(colorString, 1, 1);
-            blue  = colorComponentFrom(colorString, 2, 1);
-            break;
-            
-        case 4: // #ARGB
-            alpha = colorComponentFrom(colorString, 0, 1);
-            red   = colorComponentFrom(colorString, 1, 1);
-            green = colorComponentFrom(colorString, 2, 1);
-            blue  = colorComponentFrom(colorString, 3, 1);
-            break;
-            
-        case 6: // #RRGGBB
-            alpha = 1.0f;
-            red   = colorComponentFrom(colorString, 0, 2);
-            green = colorComponentFrom(colorString, 2, 2);
-            blue  = colorComponentFrom(colorString, 4, 2);
-            break;
-            
-        case 8: // #AARRGGBB
-            alpha = colorComponentFrom(colorString, 0, 2);
-            red   = colorComponentFrom(colorString, 2, 2);
-            green = colorComponentFrom(colorString, 4, 2);
-            blue  = colorComponentFrom(colorString, 6, 2);
-            break;
-            
-        default:
-            return nil;
+    hexColorString = [[hexColorString stringByTrimmingWhiteSpace] uppercaseString];
+    
+    if ([hexColorString hasPrefix:@"#"]) {
+        hexColorString = [hexColorString substringFromIndex:1];
+    } else if ([hexColorString hasPrefix:@"0X"]) {
+        hexColorString = [hexColorString substringFromIndex:2];
     }
     
-    UIColor *color = [UIColor colorWithR:red G:green B:blue A:alpha];
+    NSUInteger length = [hexColorString length];
+    
+    if (length != 3 && length != 4 && length != 6 && length != 8) {
+        return nil;
+    }
+    //RGB,RGBA,RRGGBB,RRGGBBAA
+    if (length < 5) {
+        red   = colorComponentFrom(hexColorString, 0, 1);
+        green = colorComponentFrom(hexColorString, 1, 1);
+        blue  = colorComponentFrom(hexColorString, 2, 1);
+        alpha = (length == 4) ? (colorComponentFrom(hexColorString, 3, 1)) : 1.0;
+    } else {
+        red   = colorComponentFrom(hexColorString, 0, 2);
+        green = colorComponentFrom(hexColorString, 2, 2);
+        blue  = colorComponentFrom(hexColorString, 4, 2);
+        alpha = (length == 8) ? (colorComponentFrom(hexColorString, 6, 1)) : 1.0;
+    }
+    
+    UIColor *color = [UIColor colorWithRed:red green:green blue:blue alpha:alpha];
     
     return color;
 }
