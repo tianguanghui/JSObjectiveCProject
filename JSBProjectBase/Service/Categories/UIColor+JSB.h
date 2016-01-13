@@ -10,18 +10,18 @@
 
 @interface UIColor(JSB)
 
-#pragma mark- 十六进制颜色
+#pragma mark- hex color
 /**
  *  从十六进制字符串取出颜色
  */
 + (UIColor *)colorWithHexColorString:(NSString *)hexColorString;
-
-
 + (UIColor *)colorWithHexColorInteger:(UInt32)hexColorInteger;
 + (UIColor *)colorWithHexColorInteger:(UInt32)hexColorInteger alpha:(CGFloat)alpha;
 
-
-- (NSString *)HEXString;
+/**
+ *  返回颜色的十六进制值
+*/
+- (NSString *)hexString;
 
 #pragma mark- RGB
 /**
@@ -35,7 +35,13 @@
  */
 + (UIColor *)colorWithR:(CGFloat)red G:(CGFloat)green B:(CGFloat)blue A:(CGFloat)alpha;
 
+@property (nonatomic, readonly) CGFloat red;
+@property (nonatomic, readonly) CGFloat green;
+@property (nonatomic, readonly) CGFloat blue;
+@property (nonatomic, readonly) CGFloat alpha;
+
 #pragma mark- Random
+
 + (UIColor *)randomColor;
 
 #pragma mark- gradient
@@ -43,8 +49,8 @@
  *  渐变
  */
 + (UIColor*)gradientFromColor:(UIColor*)c1 toColor:(UIColor*)c2 withHeight:(int)height;
-#pragma mark- web
 
+#pragma mark- web
 /**
  *  获取canvas用的颜色字符串
  */

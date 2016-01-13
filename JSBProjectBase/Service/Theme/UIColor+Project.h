@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIColor (JSBProject)
+@interface UIColor (Project)
 
 #pragma mark - bar
 

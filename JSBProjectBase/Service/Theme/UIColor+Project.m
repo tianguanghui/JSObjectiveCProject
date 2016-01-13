@@ -6,9 +6,9 @@
 //  Copyright © 2016年 JungleSong. All rights reserved.
 //
 
-#import "UIColor+JSBProject.h"
+#import "UIColor+Project.h"
 
-@implementation UIColor (JSBProject)
+@implementation UIColor (Project)
 
 #pragma mark - bar
 

@@ -19,7 +19,7 @@ CGFloat colorComponentFrom(NSString *string, NSUInteger start, NSUInteger length
 
 @implementation UIColor(JSB)
 
-#pragma mark- 十六进制颜色
+#pragma mark- hex color
 
 + (UIColor *)colorWithHexColorInteger:(UInt32)hexColorInteger
 {
@@ -28,7 +28,6 @@ CGFloat colorComponentFrom(NSString *string, NSUInteger start, NSUInteger length
 
 + (UIColor *)colorWithHexColorInteger:(UInt32)hexColorInteger alpha:(CGFloat)alpha
 {
-
     return [UIColor colorWithRed:((hexColorInteger >> 16) & 0xFF)/255.0
                            green:((hexColorInteger >> 8) & 0xFF)/255.0
                             blue:(hexColorInteger & 0xFF)/255.0
@@ -73,8 +72,10 @@ CGFloat colorComponentFrom(NSString *string, NSUInteger start, NSUInteger length
     
     return color;
 }
-
-- (NSString *)HEXString{
+/**
+ *  返回颜色的十六进制值
+ */
+- (NSString *)hexString {
     UIColor* color = self;
     if (CGColorGetNumberOfComponents(color.CGColor) < 4) {
         const CGFloat *components = CGColorGetComponents(color.CGColor);
@@ -93,8 +94,8 @@ CGFloat colorComponentFrom(NSString *string, NSUInteger start, NSUInteger length
 
 
 #pragma mark- RGB
-+ (UIColor *)colorWithRGBAString:(NSString *)rgbaStr
-{
+
++ (UIColor *)colorWithRGBAString:(NSString *)rgbaStr {
     NSArray *rgba = [rgbaStr componentsSeparatedByString:@","];
     CGFloat r = [rgba[0] floatValue];
     CGFloat g = [rgba[1] floatValue];
@@ -107,8 +108,26 @@ CGFloat colorComponentFrom(NSString *string, NSUInteger start, NSUInteger length
     return [UIColor colorWithRed:(red/255.0) green:(green/255.0) blue:(blue/255.0) alpha:alpha];
 }
 
+- (CGFloat)red {
+    CGFloat r = 0, g, b, a;
+    [self getRed:&r green:&g blue:&b alpha:&a];
+    return r;
+}
 
+- (CGFloat)green {
+    CGFloat r , g = 0, b, a;
+    [self getRed:&r green:&g blue:&b alpha:&a];
+    return g;
+}
 
+- (CGFloat)blue {
+    CGFloat r, g, b = 0, a;
+    [self getRed:&r green:&g blue:&b alpha:&a];
+    return b;
+}
+- (CGFloat)alpha {
+    return CGColorGetAlpha(self.CGColor);
+}
 
 #pragma mark- Random
 
@@ -122,8 +141,7 @@ CGFloat colorComponentFrom(NSString *string, NSUInteger start, NSUInteger length
 
 #pragma mark- gradient
 
-+ (UIColor*)gradientFromColor:(UIColor*)c1 toColor:(UIColor*)c2 withHeight:(int)height
-{
++ (UIColor*)gradientFromColor:(UIColor*)c1 toColor:(UIColor*)c2 withHeight:(int)height {
     CGSize size = CGSizeMake(1, height);
     UIGraphicsBeginImageContextWithOptions(size, NO, 0);
     CGContextRef context = UIGraphicsGetCurrentContext();

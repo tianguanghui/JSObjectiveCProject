@@ -21,6 +21,9 @@
 #import "UIImage+JSB.h"
 #import "NSString+JSB.h"
 
+#import "UIColor+Project.h"
+#import "UIFont+Project.h"
+
 #pragma mark- 3rd party header
 /**
  *  3rd party header

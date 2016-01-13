@@ -6,9 +6,9 @@
 //  Copyright © 2016年 JungleSong. All rights reserved.
 //
 
-#import "UIFont+JSBProject.h"
+#import "UIFont+Project.h"
 
-@implementation UIFont (JSBProject)
+@implementation UIFont (Project)
 
 + (UIFont *)tinySizeSystemFont
 {

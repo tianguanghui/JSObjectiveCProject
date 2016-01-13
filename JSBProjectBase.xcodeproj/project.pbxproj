@@ -82,8 +82,8 @@
 		FE19F9A61C39E551009986FE /* JSBNotificationName.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9A51C39E551009986FE /* JSBNotificationName.m */; };
 		FE19F9AC1C39E69B009986FE /* JSBDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9AB1C39E69B009986FE /* JSBDeviceInfo.m */; };
 		FE19F9AF1C39E6A7009986FE /* JSBProjectInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9AE1C39E6A7009986FE /* JSBProjectInfo.m */; };
-		FE19F9B51C3B0B9F009986FE /* UIColor+JSBProject.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9B41C3B0B9F009986FE /* UIColor+JSBProject.m */; };
-		FE19F9B81C3B0BB0009986FE /* UIFont+JSBProject.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9B71C3B0BB0009986FE /* UIFont+JSBProject.m */; };
+		FE19F9B51C3B0B9F009986FE /* UIColor+Project.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9B41C3B0B9F009986FE /* UIColor+Project.m */; };
+		FE19F9B81C3B0BB0009986FE /* UIFont+Project.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9B71C3B0BB0009986FE /* UIFont+Project.m */; };
 		FE19F9BB1C3B0E80009986FE /* UIColor+JSB.m in Sources */ = {isa = PBXBuildFile; fileRef = FE19F9BA1C3B0E80009986FE /* UIColor+JSB.m */; };
 		FE2ABBE81BAEBAA4005CA114 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2ABBE51BAEBAA4005CA114 /* main.m */; };
 		FE2ABBE91BAEBAA4005CA114 /* thirdPartyLink.txt in Resources */ = {isa = PBXBuildFile; fileRef = FE2ABBE61BAEBAA4005CA114 /* thirdPartyLink.txt */; };
@@ -261,10 +261,10 @@
 		FE19F9AB1C39E69B009986FE /* JSBDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBDeviceInfo.m; sourceTree = "<group>"; };
 		FE19F9AD1C39E6A7009986FE /* JSBProjectInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBProjectInfo.h; sourceTree = "<group>"; };
 		FE19F9AE1C39E6A7009986FE /* JSBProjectInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBProjectInfo.m; sourceTree = "<group>"; };
-		FE19F9B31C3B0B9F009986FE /* UIColor+JSBProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JSBProject.h"; sourceTree = "<group>"; };
-		FE19F9B41C3B0B9F009986FE /* UIColor+JSBProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JSBProject.m"; sourceTree = "<group>"; };
-		FE19F9B61C3B0BB0009986FE /* UIFont+JSBProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+JSBProject.h"; sourceTree = "<group>"; };
-		FE19F9B71C3B0BB0009986FE /* UIFont+JSBProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+JSBProject.m"; sourceTree = "<group>"; };
+		FE19F9B31C3B0B9F009986FE /* UIColor+Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Project.h"; sourceTree = "<group>"; };
+		FE19F9B41C3B0B9F009986FE /* UIColor+Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Project.m"; sourceTree = "<group>"; };
+		FE19F9B61C3B0BB0009986FE /* UIFont+Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Project.h"; sourceTree = "<group>"; };
+		FE19F9B71C3B0BB0009986FE /* UIFont+Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Project.m"; sourceTree = "<group>"; };
 		FE19F9B91C3B0E80009986FE /* UIColor+JSB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JSB.h"; sourceTree = "<group>"; };
 		FE19F9BA1C3B0E80009986FE /* UIColor+JSB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JSB.m"; sourceTree = "<group>"; };
 		FE2ABBE51BAEBAA4005CA114 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -724,10 +724,10 @@
 			children = (
 				FE19F9991C39CF4D009986FE /* FontUsage.h */,
 				FE19F99A1C39CF4D009986FE /* FontUsage.m */,
-				FE19F9B31C3B0B9F009986FE /* UIColor+JSBProject.h */,
-				FE19F9B41C3B0B9F009986FE /* UIColor+JSBProject.m */,
-				FE19F9B61C3B0BB0009986FE /* UIFont+JSBProject.h */,
-				FE19F9B71C3B0BB0009986FE /* UIFont+JSBProject.m */,
+				FE19F9B31C3B0B9F009986FE /* UIColor+Project.h */,
+				FE19F9B41C3B0B9F009986FE /* UIColor+Project.m */,
+				FE19F9B61C3B0BB0009986FE /* UIFont+Project.h */,
+				FE19F9B71C3B0BB0009986FE /* UIFont+Project.m */,
 			);
 			path = Theme;
 			sourceTree = "<group>";
@@ -1084,7 +1084,7 @@
 				FE2ABBE81BAEBAA4005CA114 /* main.m in Sources */,
 				FE19F99B1C39CF4D009986FE /* FontUsage.m in Sources */,
 				FE19F9771C395D42009986FE /* ObjBase.m in Sources */,
-				FE19F9B81C3B0BB0009986FE /* UIFont+JSBProject.m in Sources */,
+				FE19F9B81C3B0BB0009986FE /* UIFont+Project.m in Sources */,
 				FE0AC5841C438AB100EC0378 /* JSQMessagesInputToolbar.m in Sources */,
 				FE0AC5761C438AB100EC0378 /* JSQMediaItem.m in Sources */,
 				FE19F94D1C394696009986FE /* FunNameApi.m in Sources */,
@@ -1106,7 +1106,7 @@
 				FE0AC57A1C438AB100EC0378 /* JSQPhotoMediaItem.m in Sources */,
 				FE5F2D081BAEE4E10067A64E /* JSBitMask.m in Sources */,
 				FE0AC5831C438AB100EC0378 /* JSQMessagesComposerTextView.m in Sources */,
-				FE19F9B51C3B0B9F009986FE /* UIColor+JSBProject.m in Sources */,
+				FE19F9B51C3B0B9F009986FE /* UIColor+Project.m in Sources */,
 				FE19F9AF1C39E6A7009986FE /* JSBProjectInfo.m in Sources */,
 				FE0AC57C1C438AB100EC0378 /* JSQMessagesCellTextView.m in Sources */,
 				FE19F94F1C394696009986FE /* ProGuide.md in Sources */,
