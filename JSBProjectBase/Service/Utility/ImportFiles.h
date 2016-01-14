@@ -60,6 +60,8 @@
 /**
  *  自定义的宏文件
  */
+#import "JSBMacro.h"
+#import "JSBNotificationName.h"
 
 #pragma mark- tool/utility
 /**
