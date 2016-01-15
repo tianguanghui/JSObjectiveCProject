@@ -85,6 +85,7 @@
 		FE2ABBE81BAEBAA4005CA114 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2ABBE51BAEBAA4005CA114 /* main.m */; };
 		FE2ABBE91BAEBAA4005CA114 /* thirdPartyLink.txt in Resources */ = {isa = PBXBuildFile; fileRef = FE2ABBE61BAEBAA4005CA114 /* thirdPartyLink.txt */; };
 		FE2ABBF01BAEBEBB005CA114 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE2ABBEE1BAEBEBB005CA114 /* Info.plist */; };
+		FE38B53B1C48CA7A00C3DF9C /* JSBFIleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE38B53A1C48CA7A00C3DF9C /* JSBFIleManager.m */; };
 		FE5F2D081BAEE4E10067A64E /* JSBitMask.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5F2D071BAEE4E10067A64E /* JSBitMask.m */; };
 		FE5F2D0E1BAEE9060067A64E /* JSBUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5F2D0D1BAEE9060067A64E /* JSBUserDefaults.m */; };
 		FE8633131C40D6D200F423CF /* UIPickerViewUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8633121C40D6D200F423CF /* UIPickerViewUsage.m */; };
@@ -267,6 +268,8 @@
 		FE2ABBED1BAEBC8B005CA114 /* ImportFiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImportFiles.h; sourceTree = "<group>"; };
 		FE2ABBEE1BAEBEBB005CA114 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = JSBProjectBase/Info.plist; sourceTree = SOURCE_ROOT; };
 		FE2ABBEF1BAEBEBB005CA114 /* JSBProjectBase.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSBProjectBase.pch; path = JSBProjectBase/JSBProjectBase.pch; sourceTree = SOURCE_ROOT; };
+		FE38B5391C48CA7A00C3DF9C /* JSBFIleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBFIleManager.h; sourceTree = "<group>"; };
+		FE38B53A1C48CA7A00C3DF9C /* JSBFIleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBFIleManager.m; sourceTree = "<group>"; };
 		FE5F2D061BAEE4E10067A64E /* JSBitMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBitMask.h; sourceTree = "<group>"; };
 		FE5F2D071BAEE4E10067A64E /* JSBitMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBitMask.m; sourceTree = "<group>"; };
 		FE5F2D0C1BAEE9060067A64E /* JSBUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBUserDefaults.h; sourceTree = "<group>"; };
@@ -749,6 +752,8 @@
 				FE19F9AB1C39E69B009986FE /* JSBDeviceInfo.m */,
 				FE19F9AD1C39E6A7009986FE /* JSBProjectInfo.h */,
 				FE19F9AE1C39E6A7009986FE /* JSBProjectInfo.m */,
+				FE38B5391C48CA7A00C3DF9C /* JSBFIleManager.h */,
+				FE38B53A1C48CA7A00C3DF9C /* JSBFIleManager.m */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -1156,6 +1161,7 @@
 				FE0AC5851C438AB100EC0378 /* JSQMessagesLabel.m in Sources */,
 				FE0AC56A1C438AB100EC0378 /* JSQMessagesViewController.m in Sources */,
 				FE19F9951C39CF1D009986FE /* SignOutAction.m in Sources */,
+				FE38B53B1C48CA7A00C3DF9C /* JSBFIleManager.m in Sources */,
 				FE0AC5811C438AB100EC0378 /* JSQMessagesCollectionViewCellOutgoing.m in Sources */,
 				FE0AC5781C438AB100EC0378 /* JSQMessagesAvatarImage.m in Sources */,
 				FEFEBA4F1C47A38A00E933C5 /* NSObject+JSB.m in Sources */,
