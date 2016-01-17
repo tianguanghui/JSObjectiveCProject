@@ -7,8 +7,8 @@
 //
 
 #import "JSBHttpActionBase.h"
-#import "NSString+Random.h"
-#import "UIImage+Clip.h"
+#import "NSString+JSB.h"
+#import "UIImage+JSB.h"
 
 @interface JSBHttpActionBase()
 
