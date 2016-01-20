@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import <AlipaySDK/AlipaySDK.h>
-#import "WXApi.h"
+#import "JSBWXPayManager.h"
 
 @interface AppDelegate ()<WXApiDelegate>
 
@@ -52,8 +52,8 @@
 
 - (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
     
-    //delegate其实可以用其他类，处理，不过暂时不作该处理
-    return  [WXApi handleOpenURL:url delegate:self];
+    //微信支付之后，处理在JSBWXPayManager
+    return  [WXApi handleOpenURL:url delegate:[JSBWXPayManager sharedManager]];
 }
 
 
@@ -66,33 +66,8 @@
         }];
     }
     
-    return [WXApi handleOpenURL:url delegate:self];
-}
-
-
-#pragma mark - WXApiDelegate
--(void) onReq:(BaseReq*)req {
-    
-}
--(void) onResp:(BaseResp*)resp {
-    if([resp isKindOfClass:[PayResp class]]){
-        //支付返回结果，实际支付结果需要去微信服务器端查询
-        NSString *strMsg,*strTitle = [NSString stringWithFormat:@"支付结果"];
-        switch (resp.errCode) {
-            case WXSuccess:
-                strMsg = @"支付结果：成功！";
-                NSLog(@"支付成功－PaySuccess，retcode = %d", resp.errCode);
-                break;
-                
-            default:
-                strMsg = [NSString stringWithFormat:@"支付结果：失败！retcode = %d, retstr = %@", resp.errCode,resp.errStr];
-                NSLog(@"错误，retcode = %d, retstr = %@", resp.errCode,resp.errStr);
-                break;
-        }
-        
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:strTitle message:strMsg delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
-        [alert show];
-    }
+    //微信支付之后，处理在JSBWXPayManager
+    return [WXApi handleOpenURL:url delegate:[JSBWXPayManager sharedManager]];
 }
 
 @end

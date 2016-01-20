@@ -28,7 +28,9 @@
 typedef void(WxPayCallBack)(BOOL retrunStatus,NSDictionary *resultDic);
 
 
-@interface JSBWXPayManager : NSObject
+@interface JSBWXPayManager : NSObject<WXApiDelegate>
+
++ (instancetype)sharedManager;
 
 - (void)wxPayWithOrderStr:(PayReq *)payReq callback:(WxPayCallBack*)callBack;
 
