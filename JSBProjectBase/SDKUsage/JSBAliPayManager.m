@@ -71,8 +71,8 @@ typedef enum : NSUInteger {
     order.itBPay = @"30m";
     order.showUrl = @"m.alipay.com";
     
-    //应用注册scheme,在AlixPayDemo-Info.plist定义URL types
-    NSString *appScheme = @"alisdkdemo";
+    //应用注册scheme,在Info.plist定义URL types
+    NSString *appScheme = @"demoscheme";
     
     //将商品信息拼接成字符串
     NSString *orderSpec = [order description];
