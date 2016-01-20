@@ -186,6 +186,8 @@
 		FE5846A51C4F2DF60060AC0D /* AliOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5846A41C4F2DF60060AC0D /* AliOrder.m */; };
 		FE5F2D081BAEE4E10067A64E /* JSBitMask.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5F2D071BAEE4E10067A64E /* JSBitMask.m */; };
 		FE5F2D0E1BAEE9060067A64E /* JSBUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5F2D0D1BAEE9060067A64E /* JSBUserDefaults.m */; };
+		FE6B44161C4F55AC003092E8 /* WXOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6B44151C4F55AC003092E8 /* WXOrder.m */; };
+		FE6B44191C4F55EE003092E8 /* JSBWXPayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6B44181C4F55EE003092E8 /* JSBWXPayManager.m */; };
 		FE8633131C40D6D200F423CF /* UIPickerViewUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8633121C40D6D200F423CF /* UIPickerViewUsage.m */; };
 		FE927F401BAE41BC00233E96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE927F3F1BAE41BC00233E96 /* AppDelegate.m */; };
 		FE927F461BAE41BC00233E96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE927F441BAE41BC00233E96 /* Main.storyboard */; };
@@ -573,6 +575,10 @@
 		FE5F2D071BAEE4E10067A64E /* JSBitMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBitMask.m; sourceTree = "<group>"; };
 		FE5F2D0C1BAEE9060067A64E /* JSBUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBUserDefaults.h; sourceTree = "<group>"; };
 		FE5F2D0D1BAEE9060067A64E /* JSBUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBUserDefaults.m; sourceTree = "<group>"; };
+		FE6B44141C4F55AC003092E8 /* WXOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXOrder.h; sourceTree = "<group>"; };
+		FE6B44151C4F55AC003092E8 /* WXOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXOrder.m; sourceTree = "<group>"; };
+		FE6B44171C4F55EE003092E8 /* JSBWXPayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBWXPayManager.h; sourceTree = "<group>"; };
+		FE6B44181C4F55EE003092E8 /* JSBWXPayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBWXPayManager.m; sourceTree = "<group>"; };
 		FE8633111C40D6D200F423CF /* UIPickerViewUsage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPickerViewUsage.h; sourceTree = "<group>"; };
 		FE8633121C40D6D200F423CF /* UIPickerViewUsage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPickerViewUsage.m; sourceTree = "<group>"; };
 		FE927F381BAE41BC00233E96 /* JSBProjectBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSBProjectBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -801,6 +807,10 @@
 				FE5846A41C4F2DF60060AC0D /* AliOrder.m */,
 				FE58463A1C4F28580060AC0D /* JSBAliPayManager.h */,
 				FE58463B1C4F28580060AC0D /* JSBAliPayManager.m */,
+				FE6B44141C4F55AC003092E8 /* WXOrder.h */,
+				FE6B44151C4F55AC003092E8 /* WXOrder.m */,
+				FE6B44171C4F55EE003092E8 /* JSBWXPayManager.h */,
+				FE6B44181C4F55EE003092E8 /* JSBWXPayManager.m */,
 			);
 			path = SDKUsage;
 			sourceTree = "<group>";
@@ -1797,6 +1807,7 @@
 				FE19F9771C395D42009986FE /* ObjBase.m in Sources */,
 				FE19F9B81C3B0BB0009986FE /* UIFont+Project.m in Sources */,
 				FE0AC5841C438AB100EC0378 /* JSQMessagesInputToolbar.m in Sources */,
+				FE6B44191C4F55EE003092E8 /* JSBWXPayManager.m in Sources */,
 				FE0AC5761C438AB100EC0378 /* JSQMediaItem.m in Sources */,
 				FE19F94D1C394696009986FE /* FunNameApi.m in Sources */,
 				FE0AC58B1C438AB100EC0378 /* JSQMessagesTypingIndicatorFooterView.m in Sources */,
@@ -1867,6 +1878,7 @@
 				FE58469C1C4F2DD30060AC0D /* DataSigner.m in Sources */,
 				FEB1B5151C3768C6003536C1 /* ObjUserPhone.m in Sources */,
 				FE0AC5641C438AB100EC0378 /* NSString+JSQMessages.m in Sources */,
+				FE6B44161C4F55AC003092E8 /* WXOrder.m in Sources */,
 				FE5846081C4F25D80060AC0D /* README.md in Sources */,
 				FE19F9AC1C39E69B009986FE /* JSBDeviceInfo.m in Sources */,
 				FE0AC57E1C438AB100EC0378 /* JSQMessagesCollectionViewCell.m in Sources */,
