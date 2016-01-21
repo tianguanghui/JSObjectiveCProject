@@ -44,6 +44,8 @@
  */
 @interface JSBShareManager : NSObject
 
++ (instancetype)sharedManager;
+
 /**
  *  调用注册方法
  */

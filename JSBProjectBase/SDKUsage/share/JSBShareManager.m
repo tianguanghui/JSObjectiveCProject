@@ -28,6 +28,15 @@
 
 @implementation JSBShareManager
 
++(instancetype)sharedManager {
+    static dispatch_once_t onceToken;
+    static JSBShareManager *instance;
+    dispatch_once(&onceToken, ^{
+        instance = [[JSBShareManager alloc] init];
+    });
+    return instance;
+}
+
 /**
  *  下面方法在application: didFinishLaunchingWithOptions:方法中调用registerApp方法来初始化SDK并且初始化第三方平台
  */
