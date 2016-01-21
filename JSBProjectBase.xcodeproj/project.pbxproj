@@ -174,7 +174,6 @@
 		FE5846351C4F28000060AC0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5846341C4F28000060AC0D /* Foundation.framework */; };
 		FE5846371C4F28050060AC0D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5846361C4F28050060AC0D /* CFNetwork.framework */; };
 		FE5846391C4F280A0060AC0D /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5846381C4F280A0060AC0D /* CoreMotion.framework */; };
-		FE58463C1C4F28580060AC0D /* JSBAliPayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE58463B1C4F28580060AC0D /* JSBAliPayManager.m */; };
 		FE58469B1C4F2DD30060AC0D /* base64.m in Sources */ = {isa = PBXBuildFile; fileRef = FE58468B1C4F2DD30060AC0D /* base64.m */; };
 		FE58469C1C4F2DD30060AC0D /* DataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = FE58468E1C4F2DD30060AC0D /* DataSigner.m */; };
 		FE58469D1C4F2DD30060AC0D /* DataVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5846901C4F2DD30060AC0D /* DataVerifier.m */; };
@@ -183,12 +182,15 @@
 		FE5846A01C4F2DD30060AC0D /* openssl_wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5846961C4F2DD30060AC0D /* openssl_wrapper.m */; };
 		FE5846A11C4F2DD30060AC0D /* RSADataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5846981C4F2DD30060AC0D /* RSADataSigner.m */; };
 		FE5846A21C4F2DD30060AC0D /* RSADataVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = FE58469A1C4F2DD30060AC0D /* RSADataVerifier.m */; };
-		FE5846A51C4F2DF60060AC0D /* AliOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5846A41C4F2DF60060AC0D /* AliOrder.m */; };
 		FE5F2D081BAEE4E10067A64E /* JSBitMask.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5F2D071BAEE4E10067A64E /* JSBitMask.m */; };
 		FE5F2D0E1BAEE9060067A64E /* JSBUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5F2D0D1BAEE9060067A64E /* JSBUserDefaults.m */; };
-		FE6B44161C4F55AC003092E8 /* WXOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6B44151C4F55AC003092E8 /* WXOrder.m */; };
-		FE6B44191C4F55EE003092E8 /* JSBWXPayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6B44181C4F55EE003092E8 /* JSBWXPayManager.m */; };
 		FE8633131C40D6D200F423CF /* UIPickerViewUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8633121C40D6D200F423CF /* UIPickerViewUsage.m */; };
+		FE8861861C50ACC800FC45DB /* ObjAliOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = FE88617F1C50ACC800FC45DB /* ObjAliOrder.m */; };
+		FE8861871C50ACC800FC45DB /* JSBAliPayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8861811C50ACC800FC45DB /* JSBAliPayManager.m */; };
+		FE8861881C50ACC800FC45DB /* JSBWXPayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8861831C50ACC800FC45DB /* JSBWXPayManager.m */; };
+		FE8861891C50ACC800FC45DB /* ObjWXOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8861851C50ACC800FC45DB /* ObjWXOrder.m */; };
+		FE8861921C50B7FB00FC45DB /* JSBShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE88618F1C50B7FB00FC45DB /* JSBShareManager.m */; };
+		FE8861931C50B7FB00FC45DB /* ObjShareContent.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8861911C50B7FB00FC45DB /* ObjShareContent.m */; };
 		FE927F401BAE41BC00233E96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE927F3F1BAE41BC00233E96 /* AppDelegate.m */; };
 		FE927F461BAE41BC00233E96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE927F441BAE41BC00233E96 /* Main.storyboard */; };
 		FE927F481BAE41BD00233E96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE927F471BAE41BD00233E96 /* Assets.xcassets */; };
@@ -475,8 +477,6 @@
 		FE5846341C4F28000060AC0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FE5846361C4F28050060AC0D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		FE5846381C4F280A0060AC0D /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		FE58463A1C4F28580060AC0D /* JSBAliPayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBAliPayManager.h; sourceTree = "<group>"; };
-		FE58463B1C4F28580060AC0D /* JSBAliPayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBAliPayManager.m; sourceTree = "<group>"; };
 		FE58463E1C4F2DCE0060AC0D /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
 		FE58463F1C4F2DCE0060AC0D /* asn1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1.h; sourceTree = "<group>"; };
 		FE5846401C4F2DCE0060AC0D /* asn1_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1_mac.h; sourceTree = "<group>"; };
@@ -569,18 +569,24 @@
 		FE5846981C4F2DD30060AC0D /* RSADataSigner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSADataSigner.m; sourceTree = "<group>"; };
 		FE5846991C4F2DD30060AC0D /* RSADataVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSADataVerifier.h; sourceTree = "<group>"; };
 		FE58469A1C4F2DD30060AC0D /* RSADataVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSADataVerifier.m; sourceTree = "<group>"; };
-		FE5846A31C4F2DF60060AC0D /* AliOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliOrder.h; sourceTree = "<group>"; };
-		FE5846A41C4F2DF60060AC0D /* AliOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliOrder.m; sourceTree = "<group>"; };
 		FE5F2D061BAEE4E10067A64E /* JSBitMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBitMask.h; sourceTree = "<group>"; };
 		FE5F2D071BAEE4E10067A64E /* JSBitMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBitMask.m; sourceTree = "<group>"; };
 		FE5F2D0C1BAEE9060067A64E /* JSBUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBUserDefaults.h; sourceTree = "<group>"; };
 		FE5F2D0D1BAEE9060067A64E /* JSBUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBUserDefaults.m; sourceTree = "<group>"; };
-		FE6B44141C4F55AC003092E8 /* WXOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXOrder.h; sourceTree = "<group>"; };
-		FE6B44151C4F55AC003092E8 /* WXOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXOrder.m; sourceTree = "<group>"; };
-		FE6B44171C4F55EE003092E8 /* JSBWXPayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBWXPayManager.h; sourceTree = "<group>"; };
-		FE6B44181C4F55EE003092E8 /* JSBWXPayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBWXPayManager.m; sourceTree = "<group>"; };
 		FE8633111C40D6D200F423CF /* UIPickerViewUsage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPickerViewUsage.h; sourceTree = "<group>"; };
 		FE8633121C40D6D200F423CF /* UIPickerViewUsage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPickerViewUsage.m; sourceTree = "<group>"; };
+		FE88617E1C50ACC800FC45DB /* ObjAliOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjAliOrder.h; sourceTree = "<group>"; };
+		FE88617F1C50ACC800FC45DB /* ObjAliOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjAliOrder.m; sourceTree = "<group>"; };
+		FE8861801C50ACC800FC45DB /* JSBAliPayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBAliPayManager.h; sourceTree = "<group>"; };
+		FE8861811C50ACC800FC45DB /* JSBAliPayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBAliPayManager.m; sourceTree = "<group>"; };
+		FE8861821C50ACC800FC45DB /* JSBWXPayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBWXPayManager.h; sourceTree = "<group>"; };
+		FE8861831C50ACC800FC45DB /* JSBWXPayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBWXPayManager.m; sourceTree = "<group>"; };
+		FE8861841C50ACC800FC45DB /* ObjWXOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjWXOrder.h; sourceTree = "<group>"; };
+		FE8861851C50ACC800FC45DB /* ObjWXOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjWXOrder.m; sourceTree = "<group>"; };
+		FE88618E1C50B7FB00FC45DB /* JSBShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBShareManager.h; sourceTree = "<group>"; };
+		FE88618F1C50B7FB00FC45DB /* JSBShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBShareManager.m; sourceTree = "<group>"; };
+		FE8861901C50B7FB00FC45DB /* ObjShareContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjShareContent.h; sourceTree = "<group>"; };
+		FE8861911C50B7FB00FC45DB /* ObjShareContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjShareContent.m; sourceTree = "<group>"; };
 		FE927F381BAE41BC00233E96 /* JSBProjectBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSBProjectBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE927F3E1BAE41BC00233E96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FE927F3F1BAE41BC00233E96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -803,14 +809,8 @@
 		FE0AC4FF1C438A9100EC0378 /* SDKUsage */ = {
 			isa = PBXGroup;
 			children = (
-				FE5846A31C4F2DF60060AC0D /* AliOrder.h */,
-				FE5846A41C4F2DF60060AC0D /* AliOrder.m */,
-				FE58463A1C4F28580060AC0D /* JSBAliPayManager.h */,
-				FE58463B1C4F28580060AC0D /* JSBAliPayManager.m */,
-				FE6B44141C4F55AC003092E8 /* WXOrder.h */,
-				FE6B44151C4F55AC003092E8 /* WXOrder.m */,
-				FE6B44171C4F55EE003092E8 /* JSBWXPayManager.h */,
-				FE6B44181C4F55EE003092E8 /* JSBWXPayManager.m */,
+				FE88618D1C50B7FB00FC45DB /* share */,
+				FE88617D1C50ACC800FC45DB /* pay */,
 			);
 			path = SDKUsage;
 			sourceTree = "<group>";
@@ -1407,6 +1407,32 @@
 			path = UIKitUseage;
 			sourceTree = "<group>";
 		};
+		FE88617D1C50ACC800FC45DB /* pay */ = {
+			isa = PBXGroup;
+			children = (
+				FE88617E1C50ACC800FC45DB /* ObjAliOrder.h */,
+				FE88617F1C50ACC800FC45DB /* ObjAliOrder.m */,
+				FE8861801C50ACC800FC45DB /* JSBAliPayManager.h */,
+				FE8861811C50ACC800FC45DB /* JSBAliPayManager.m */,
+				FE8861841C50ACC800FC45DB /* ObjWXOrder.h */,
+				FE8861851C50ACC800FC45DB /* ObjWXOrder.m */,
+				FE8861821C50ACC800FC45DB /* JSBWXPayManager.h */,
+				FE8861831C50ACC800FC45DB /* JSBWXPayManager.m */,
+			);
+			path = pay;
+			sourceTree = "<group>";
+		};
+		FE88618D1C50B7FB00FC45DB /* share */ = {
+			isa = PBXGroup;
+			children = (
+				FE8861901C50B7FB00FC45DB /* ObjShareContent.h */,
+				FE8861911C50B7FB00FC45DB /* ObjShareContent.m */,
+				FE88618E1C50B7FB00FC45DB /* JSBShareManager.h */,
+				FE88618F1C50B7FB00FC45DB /* JSBShareManager.m */,
+			);
+			path = share;
+			sourceTree = "<group>";
+		};
 		FE927F2F1BAE41BC00233E96 = {
 			isa = PBXGroup;
 			children = (
@@ -1807,14 +1833,15 @@
 				FE19F9771C395D42009986FE /* ObjBase.m in Sources */,
 				FE19F9B81C3B0BB0009986FE /* UIFont+Project.m in Sources */,
 				FE0AC5841C438AB100EC0378 /* JSQMessagesInputToolbar.m in Sources */,
-				FE6B44191C4F55EE003092E8 /* JSBWXPayManager.m in Sources */,
+				FE8861881C50ACC800FC45DB /* JSBWXPayManager.m in Sources */,
 				FE0AC5761C438AB100EC0378 /* JSQMediaItem.m in Sources */,
 				FE19F94D1C394696009986FE /* FunNameApi.m in Sources */,
 				FE0AC58B1C438AB100EC0378 /* JSQMessagesTypingIndicatorFooterView.m in Sources */,
+				FE8861891C50ACC800FC45DB /* ObjWXOrder.m in Sources */,
 				FEB1B50E1C376360003536C1 /* ObjStudent.m in Sources */,
-				FE58463C1C4F28580060AC0D /* JSBAliPayManager.m in Sources */,
 				FEB1B5121C3763BB003536C1 /* ObjUser.m in Sources */,
 				FE0AC5681C438AB100EC0378 /* UIView+JSQMessages.m in Sources */,
+				FE8861921C50B7FB00FC45DB /* JSBShareManager.m in Sources */,
 				FE19F9A21C39D3BD009986FE /* KeychainUsage.m in Sources */,
 				FE0AC56C1C438AB100EC0378 /* JSQMessagesAvatarImageFactory.m in Sources */,
 				FE0AC5861C438AB100EC0378 /* JSQMessagesLoadEarlierHeaderView.m in Sources */,
@@ -1822,7 +1849,7 @@
 				FE0AC5621C438AB100EC0378 /* JSQSystemSoundPlayer+JSQMessages.m in Sources */,
 				FE0AC57B1C438AB100EC0378 /* JSQVideoMediaItem.m in Sources */,
 				FE0AC5671C438AB100EC0378 /* UIImage+JSQMessages.m in Sources */,
-				FE5846A51C4F2DF60060AC0D /* AliOrder.m in Sources */,
+				FE8861861C50ACC800FC45DB /* ObjAliOrder.m in Sources */,
 				FE19F94E1C394696009986FE /* GetImageApi.m in Sources */,
 				FE5F2D0E1BAEE9060067A64E /* JSBUserDefaults.m in Sources */,
 				FE19F9941C39CF1D009986FE /* GetUserInfoWithIDAction.m in Sources */,
@@ -1862,6 +1889,7 @@
 				FE19F9951C39CF1D009986FE /* SignOutAction.m in Sources */,
 				FE38B53B1C48CA7A00C3DF9C /* JSBFIleManager.m in Sources */,
 				FE0AC5811C438AB100EC0378 /* JSQMessagesCollectionViewCellOutgoing.m in Sources */,
+				FE8861931C50B7FB00FC45DB /* ObjShareContent.m in Sources */,
 				FE0AC5781C438AB100EC0378 /* JSQMessagesAvatarImage.m in Sources */,
 				FEFEBA4F1C47A38A00E933C5 /* NSObject+JSB.m in Sources */,
 				FE58469D1C4F2DD30060AC0D /* DataVerifier.m in Sources */,
@@ -1878,11 +1906,11 @@
 				FE58469C1C4F2DD30060AC0D /* DataSigner.m in Sources */,
 				FEB1B5151C3768C6003536C1 /* ObjUserPhone.m in Sources */,
 				FE0AC5641C438AB100EC0378 /* NSString+JSQMessages.m in Sources */,
-				FE6B44161C4F55AC003092E8 /* WXOrder.m in Sources */,
 				FE5846081C4F25D80060AC0D /* README.md in Sources */,
 				FE19F9AC1C39E69B009986FE /* JSBDeviceInfo.m in Sources */,
 				FE0AC57E1C438AB100EC0378 /* JSQMessagesCollectionViewCell.m in Sources */,
 				FE0AC5691C438AB100EC0378 /* JSQMessagesKeyboardController.m in Sources */,
+				FE8861871C50ACC800FC45DB /* JSBAliPayManager.m in Sources */,
 				FE0AC57F1C438AB100EC0378 /* JSQMessagesCollectionViewCellIncoming.m in Sources */,
 				FE19F9981C39CF1D009986FE /* ValidationAction.m in Sources */,
 				FE02E1E61C4A56300087AED6 /* UIView+JSB.m in Sources */,

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface AliOrder : NSObject
+@interface ObjAliOrder : NSObject
 /*
  *商户的唯一的parnter和seller。
  *签约后，支付宝会为每个商户分配一个唯一的 parnter 和 seller。

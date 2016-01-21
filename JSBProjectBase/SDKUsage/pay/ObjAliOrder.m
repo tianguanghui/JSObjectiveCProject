@@ -6,9 +6,9 @@
 //  Copyright © 2016年 JungleSong. All rights reserved.
 //
 
-#import "AliOrder.h"
+#import "ObjAliOrder.h"
 
-@implementation AliOrder
+@implementation ObjAliOrder
 
 - (NSString *)description {
     NSMutableString * discription = [NSMutableString string];

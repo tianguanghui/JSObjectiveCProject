@@ -6,8 +6,8 @@
 //  Copyright © 2016年 JungleSong. All rights reserved.
 //
 
-#import "WXOrder.h"
+#import "ObjWXOrder.h"
 
-@implementation WXOrder
+@implementation ObjWXOrder
 
 @end

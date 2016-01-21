@@ -50,7 +50,7 @@ typedef enum : NSUInteger {
      *生成订单信息及签名
      */
     //将商品信息赋予AlixPayOrder的成员变量
-    AliOrder *order = [[AliOrder alloc]init];
+    ObjAliOrder *order = [[ObjAliOrder alloc]init];
     order.partner = partner;
     order.seller = seller;
     order.tradeNO = [self generateTradeNO];

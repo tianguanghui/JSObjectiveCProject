@@ -12,7 +12,7 @@
  *  由服务器返回的对象，用于生成PayReq对象；
  *  PayReq用于向微信发起支付
  */
-@interface WXOrder : NSObject
+@interface ObjWXOrder : NSObject
 
 @property (nonatomic, copy) NSString* appid;
 /** 商家向财付通申请的商家id */

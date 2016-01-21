@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "AliOrder.h"
+#import "ObjAliOrder.h"
 
 typedef void(AliPayCallBack)(BOOL retrunStatus,NSDictionary *resultDic);
 
