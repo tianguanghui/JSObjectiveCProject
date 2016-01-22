@@ -25,6 +25,14 @@
     //向微信注册wxd930ea5d5a258f4f
     [WXApi registerApp:@"wxb4ba3c02aa476ea1" withDescription:@"demo 2.0"];
     
+    id ObjUserClass = objc_getClass("ObjUser");
+    unsigned int outCount, i;
+    objc_property_t *properties = class_copyPropertyList(ObjUserClass, &outCount);
+    for (i = 0; i < outCount; i++) {
+        objc_property_t property = properties[i];
+        fprintf(stdout, "%s %s\n", property_getName(property), property_getAttributes(property));
+    }
+    
     return YES;
 }
 
